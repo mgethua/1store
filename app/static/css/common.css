@@ -88,6 +88,7 @@
 	display: none;
 	margin-left: -6px;
 	border: 1px solid #cccccc;
+	z-index: 1;
 }
 .header .login .help .help_list li{
 	width: 100%;
