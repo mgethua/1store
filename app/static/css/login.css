@@ -1,0 +1,131 @@
+#main_wrapper{
+	width: 100%;
+	height: 100%;
+	background: #fcfcfc;
+	margin: 0;
+	position: relative;
+}
+.mian{
+	width: 100%;
+	height: 100%;
+	background: #fcfcfc;
+}
+.main form{
+	position: absolute;
+	right: 193px;
+	top: 27px;
+	box-sizing: border-box;
+	width: 400px;
+	height: 402px;
+	background: #ffffff;
+}
+.main form .title{
+	margin: 0 auto;
+	margin-top: 46px;
+	width: 330px;
+}
+.main form .title h3{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 900;
+}
+.main form .title a{
+	float: right;
+}
+.main form .init{
+	width: 330px;
+	margin: 0 auto;
+}
+.main form .init .username{
+	width: 328px;
+	height: 52px;
+	border: 1px solid #dedede;
+	margin-top: 8px;
+}
+.main form .init .password{
+	width: 328px;
+	height: 52px;
+	border: 1px solid #dedede;
+	margin-top: 10px;
+}
+.main form .checkbox{
+	width: 330px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.main form .checkbox a input{
+	display: inline-block;
+}
+.main form .checkbox a{
+	color: #999;
+	display: inline-block;	
+}
+.main form .checkbox .forget{	
+	float: right;
+}
+.main form button{
+	padding: 0;
+	width: 330px;
+	height: 52px;
+	background: #ff3c3c;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+	margin-left: 35px;;
+	margin-top: 16px;
+}
+.main form .form_footer{
+	width: 330px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.main form .form_footer span{
+	color: #666;
+	display: block;
+	width: 330px;
+	font-size: 14px;
+}
+.main form .form_footer div{
+	margin-top: 12px;
+	height: 32px;
+	width: 330px;
+	line-height: 32px;
+	display: inline-block;
+}
+.main form .form_footer div a{
+	margin: 0;
+	padding: 0;
+}
+.main form .form_footer div a:nth-child(1) i{
+	font-size: 32px;
+	color: #10a8ff;
+}
+.main form .form_footer div a:nth-child(2) i{
+	font-size: 32px;
+	margin-left: 16px;
+	color: #c81825;
+}
+.main form .form_footer div a:nth-child(3) i{
+	font-size: 32px;
+	margin-left: 16px;
+	color: #00cc00;
+}
+.main form .form_footer div a:nth-child(4) i{
+	font-size: 32px;
+	margin-left: 16px;
+	color: #dd2e37;
+}
+.main form .form_footer p{
+	display: inline-block;
+	float: right;
+	padding-right: 20px;
+}
+.main form .form_footer p i{
+	display: inline-block;
+	margin-left: 4px;
+	width: 15px;
+	height: 12px;
+	background: url(../image/login_new.png) no-repeat;
+	background-position: -345px -83px;
+}
