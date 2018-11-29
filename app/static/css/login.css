@@ -1,18 +1,18 @@
 #main_wrapper{
 	width: 100%;
-	height: 100%;
+	height: 440px;
 	background: #fcfcfc;
 	margin: 0;
 	position: relative;
 }
-.mian{
+.main{
 	width: 100%;
-	height: 100%;
-	background: #fcfcfc;
+	height: 440px;
+	background: #fcfcfc url(../image/login_pic.png) no-repeat 150px 70px;
 }
 .main form{
 	position: absolute;
-	right: 193px;
+	right: 155px;
 	top: 27px;
 	box-sizing: border-box;
 	width: 400px;
@@ -34,19 +34,52 @@
 }
 .main form .init{
 	width: 330px;
+	box-sizing: border-box;
 	margin: 0 auto;
 }
 .main form .init .username{
 	width: 328px;
 	height: 52px;
+	box-sizing: border-box;
+	padding-left: 60px;
 	border: 1px solid #dedede;
 	margin-top: 8px;
 }
 .main form .init .password{
 	width: 328px;
 	height: 52px;
+	box-sizing: border-box;
+	padding-left: 60px;
 	border: 1px solid #dedede;
 	margin-top: 10px;
+}
+.main form .init span{
+	display: block;
+	position: absolute;
+	left: 100px;
+	top: 152px;
+	font-size: 14px;
+	color: #757575;
+}
+.main form .init .user{
+	display: block;
+	position: absolute;
+	left: 50px;
+	top: 90px;
+	width: 16px;
+	height: 16px;
+	background: url(../image/login_new.png) no-repeat;
+	background-position: -344px -216px;
+}
+.main form .init .pass{
+	display: block;
+	position: absolute;
+	left: 50px;
+	top: 152px;
+	width: 16px;
+	height: 18px;
+	background: url(../image/login_new.png) no-repeat;
+	background-position: -344px -103px;
 }
 .main form .checkbox{
 	width: 330px;
@@ -128,4 +161,17 @@
 	height: 12px;
 	background: url(../image/login_new.png) no-repeat;
 	background-position: -345px -83px;
+}
+.main form .two_code{
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+	width: 62px;
+	height: 62px;
+	background: url(../image/codeSwich.png) no-repeat right;
+	background-position: -88px 0px;
+}
+.main form .two_code:hover{
+	background-position: -88px -88px;
 }

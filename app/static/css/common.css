@@ -116,3 +116,24 @@
 	display:block;
 	border-top: none;
 }
+#footer_wrapper{
+	width: 100%;
+	height: 60px;
+}
+.footer_son{
+	height: 60px;
+	text-align: center;
+	font-size: 12px;
+	width: 360px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.footer_son a{
+	color: #333333;
+}
+.footer_son a:hover{
+	color: red;
+}
+.footer_son p{
+	margin-top: 10px;
+}
