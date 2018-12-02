@@ -3,13 +3,13 @@
 	height: 533px;
 	border-bottom: 1px solid #f4f4f4;
 	box-shadow: 1px 1px 3px #CCCCCC;
-	animation: run 20s linear infinite alternate;
+	/*animation: run 20s linear infinite alternate;*/
 	position: relative;
 }
 .mian form{
 	margin: 0 auto;
 }
-.mian form div{
+.mian form .form_son{
 	width: 330px;
 	position: absolute;
 	left: 0;
@@ -18,15 +18,15 @@
 	bottom: 0;
 	margin:auto;	
 }
-.mian form div h2{
+.mian form .form_son h2{
 	text-align: center;
 	font-size:24px;
 	font-weight: 900;
 	padding-top: 24px;
 	line-height: 56px;
 }
-.mian form div input{
-	width: 100%;
+.mian form .form_son input{
+	width: 328px;
 	margin: 0;
 	padding: 0;
 	margin-top: 10px;
@@ -36,15 +36,15 @@
 	box-sizing: border-box;
 	padding-left: 20px;
 }
-.mian form div .code{
+.mian form .form_son .code{
 	width: 192px;
 }
-.mian form div .getcode{
+.mian form .form_son .getcode{
 	outline: none;
 	display: block;
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	border-radius:4px ;
 	height: 50px;
 	width: 125px;
@@ -53,86 +53,92 @@
 	display: inline-block;
 	margin-left: 6px;
 }
-.mian form div i:nth-of-type(1){
-	display: block;
+.mian form .form_son div{
+	box-sizing: border-box;
+	width: 700px;
+}
+.mian form .form_son div:nth-of-type(1) i{
+	display: none;
 	max-width: 162px;
-	max-height: 60px;
 	background: #cccccc;
 	box-sizing: border-box;
-	position: absolute;
-	left:340px;
-	top: 67px;
+	margin-left: 15px;
 	padding: 10px;
 }
-.mian form div i:nth-of-type(2){
-	display: block;
+.mian form .form_son div:nth-of-type(2) i{
+	display: none;
+	max-width: 162px;
 	box-sizing: border-box;
 	background: #cccccc;
-	position: absolute;
-	left:340px;
-	top: 130px;
+	margin-left: 15px;
 	padding: 10px;
 }
-.mian form div i:nth-of-type(3){
-	display: block;
+.mian form .form_son div:nth-of-type(3) i{
+	max-width: 162px;
+	display: none;
 	box-sizing: border-box;
 	background: #cccccc;
-	position: absolute;
-	left:340px;
-	top: 250px;
+	margin-left: 15px;
 	padding: 10px;
 }
-.mian form div i:nth-of-type(4){
-	display: block;
+.mian form .form_son div:nth-of-type(4) i{
+	display: none;
 	box-sizing: border-box;
+	max-width: 162px;
 	background: #cccccc;
-	position: absolute;
-	left:340px;
-	top: 310px;
+	margin-left: 15px;
 	padding: 10px;
 }
-.mian form div span:nth-of-type(1){
+.mian form .form_son div:nth-of-type(5) i{
+	display: none;
+	box-sizing: border-box;
+	max-width: 162px;
+	background: #cccccc;
+	margin-left: 15px;
+	padding: 10px;
+}
+.mian form .form_son div:nth-of-type(1) span{
 	position: absolute;
 	font-size: 14px;
 	color: #666666;
 	top: 106px;
 	left: 20px;
 }
-.mian form div span:nth-of-type(2){
+.mian form .form_son div:nth-of-type(2) span{
 	position: absolute;
 	color: #666666;
 	font-size: 14px;
 	top: 166px;
 	left: 20px;
 }
-.mian form div span:nth-of-type(3){
+.mian form .form_son div:nth-of-type(3) span{
 	position: absolute;
 	font-size: 14px;
 	color: #666666;
 	top: 226px;
 	left: 20px;
 }
-.mian form div span:nth-of-type(4){
+.mian form .form_son div:nth-of-type(4) span{
 	position: absolute;
 	font-size: 14px;
 	color: #666666;
 	top: 286px;
 	left: 20px;
 }
-.mian form div span:nth-of-type(5){
+.mian form .form_son div:nth-of-type(5) span{
 	position: absolute;
 	font-size: 14px;
 	color: #666666;
 	top: 346px;
 	left: 20px;
 }
-.mian form div i{
-	display: block;
+.mian form .form_son .xieyi{
+	display:inline-block;
 	margin-top: 22px;
 	color: #666666;
 	padding-left: 11px;
 }
-.mian form div .submit{
+.mian form .form_son .submit{
 	width: 100%;
 	height: 52px;
 	margin-top: 18px;
@@ -145,7 +151,7 @@
 	font-size: 16px;
 	color: #fff;
 }
-.mian form div .submit:hover{
+.mian form .form_son .submit:hover{
 	background: #d72226;
 }
 
