@@ -35,7 +35,7 @@
     </section>
     <section id="main_wrapper">
     	<section class="mian center">
-    		<form autocomplete="off">
+    		<form autocomplete="off" onsubmit="return false">
     			<div class="form_son">
 	    			<h2>1号店注册</h2>
 	    			<div>
@@ -48,7 +48,7 @@
 	    			</div>
 	    			<div>
 	    				<input type="text" name="code" class="code"/>
-	    				<button type="button" class="getcode">获取验证码<b></b></button><i></i><br />
+	    				<button type="button" disabled class="getcode">获取验证码<b></b></button><i></i><br />
 	    				<span>短信验证码</span>
 	    			</div>
 	    			<div>
@@ -56,11 +56,11 @@
 	    				<span>设置密码</span>
 	    			</div>
 	    			<div>
-	    				<input type="text" name="passwordset" class="paswordset"/><i>请再次输入密码</i><br />
+	    				<input type="password" name="passwordset" class="paswordset"/><i>请再次输入密码</i><br />
 	    				<span>确认密码</span>
 	    			</div>
-	    			<i class="xieyi">点击注册，表示您同意1号店<a href="#">《服务协议及隐私声明》</a></i>
-	    			<button type="button" class="submit">同意协议并注册</button>
+	    			<b class="xieyi">点击注册，表示您同意1号店<a href="#">《服务协议及隐私声明》</a></b>
+	    			<button type="submit" class="submit" name="submit">同意协议并注册</button>
     			</div>
     		</form>
     	</section>    	
@@ -76,6 +76,9 @@
     	</section>
 	</footer>
 	<script src="js/form_check.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/move1.1.0.js"></script>
+	<script src="js/ajax.js"></script>
 	<script>
 		register.init("form")
 	</script>

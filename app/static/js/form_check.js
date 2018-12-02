@@ -44,75 +44,93 @@ var register = (function () {
                     var $i = this.nextElementSibling;
                     if (this.value == '') {
                         $i.innerHTML = `内容不能为空`
+                        $i.style.padding = 10 + 'px';
                         if (_this.$spanAll[i].innerHTML == '短信验证码') {
                             $i.innerHTML = '获取验证码'
                         }
                         if (_this.$spanAll[i].innerHTML == '确认密码') {
                             $i.innerHTML = '请再次输入密码'
                         }
-                    } else {
+                    } else{
                         var bool = checkInput[this.name](this.value);
-                        if (bool) {
-                            // 验证成功
+                        if(bool){
+                            //验证成功
                             $i.innerHTML = '<img src="image/success.png">';
                             $i.style.padding = 0;
-                            if (_this.$spanAll[i].innerHTML == '手机号') {
+                            if(_this.$spanAll[i].innerHTML == '手机号'){
                                 _this.$btn.disabled = '';
-                                _this.$btn.onclick = function () {
-                                    clearInterval(_this.timer)
-                                    var num=5;
-                                    this.timer=setInterval(function(){                                        
-                                        var $b=_this.$btn.querySelector('b')
-                                        clearInterval(_this.timer)
-                                            num--;
-                                            $b.innerHTML=num;
-                                            _this.$btn.disabled = 'disabled'
-                                            if(num == 0){
-                                                clearInterval(this.time)
-                                            }        
+                                _this.$btn.onclick=function(){
+                                    clearInterval(this.timer);
+                                    var $b=_this.$btn.querySelector('b');
+                                    console.log(this)
+                                    var $this=this;
+                                    var num=60;
+                                    $this.timer=setInterval(function(){
+                                        num--;
+                                        console.log($b)
+                                        $b.innerHTML=num;
+                                        _this.$btn.disabled="disabled";
+                                        if(num == 0){
+                                            $b.innerHTML='';
+                                            _this.$btn.disabled='';
+                                            clearInterval($this.timer);
+                                        }
                                     },1000)
-                                //     if(num == 0){
-                                //         $b.innerHTML='';
-                                //         _this.$btn.disabled = '';
-                                //         clearInterval(_this.timer)
-                                //         console.log(num)
-                                // }
-                                }
-
-                                if (_this.$spanAll[i].innerHTML == '短信验证码') {
-
-                                    $i.innerHTML = `获取短信验证码`
-                                    var $i2 = this.nextElementSibling.nextElementSibling;
-                                    console.log($i2)
-                                    $i2.style.display = "inline-block"
-                                    $i2.style.padding = 0
-                                    $i2.innerHTML = '<img src="image/success.png">'
                                 }
                             }
-                            else {
-                                // 验证失败
-                                $i.innerHTML = '格式错误！！！！';
-                                $i.className += ' error'
-                                if (_this.$spanAll[i].innerHTML == '手机号') {
-                                    _this.$btn.disabled = "disabled"
-                                }
-                                if (_this.$spanAll[i].innerHTML == '短信验证码') {
-                                    $i.innerHTML = '获取验证码'
-                                    var $i2 = this.nextElementSibling.nextElementSibling;
-                                    $i2.style.display = 'inline-block';
-                                    $i2.style.padding = 0
-                                    $i2.innerHTML = '<img src="image/error.png">'
-                                }
+                            if(_this.$spanAll[i].innerHTML == '短信验证码'){
+                                $i.innerHTML = `获取验证码<b></b>`
+                                var $coedStatu = this.nextElementSibling.nextElementSibling;
+                                $coedStatu.style.display = 'inline-block';
+                                $coedStatu.style.padding = 0;
+                                $coedStatu.innerHTML = '<img src="image/success.png">';
+                                console.log($coedStatu)
+                            }
+                        } else{
+                            $i.innerHTML = '格式错误！！！！';
+                            if (_this.$spanAll[i].innerHTML == '手机号') {
+                                _this.$btn.disabled = "disabled"
+                            }
+                            if (_this.$spanAll[i].innerHTML == '短信验证码'){
+                                $i.innerHTML = `获取验证码<b></b>`
+                                var $coedStatu = this.nextElementSibling.nextElementSibling;
+                                $coedStatu.style.display = 'inline-block';
+                                $coedStatu.style.padding = 0;
+                                $coedStatu.innerHTML = '<img src="image/error.png">';
                             }
                         }
                     }
                 }
-                // this.timer=setInterval(function(){
-                //     var num=60;
-                //     num--;
-                // },1000)
             }
-            
-        }
+            this.$el['password'].addEventListener('blur', function() {
+                _this.$el['passwordset'].onblur();
+            })
+            this.$el['passwordset'].onblur = function() {
+                var $i = this.nextElementSibling;
+                if(this.value === _this.$el['password'].value) {
+                    $i.innerHTML = '<img src="image/success.png">';
+                    $i.style.padding = 0;
+                } else {
+                    $i.innerHTML = '你输入的密码与上次不匹配';
+                }
+            }
+            this.$el['submit'].onclick = function() {
+                var $iAll = _this.$el.querySelectorAll('i');
+                console.log($iAll)
+                for(let i = 0; i < $iAll.length; i++) {
+                    if($iAll[i].innerHTML.indexOf('<img src="image/success.png">') == -1) {
+                        $iAll[i].previousElementSibling.focus();
+                        if(i == 2){
+                            $iAll[i].previousElementSibling.previousElementSibling.focus();
+                        }
+                        return;
+                    }
+                    if(i == $iAll.length-1){
+                        console.log(_this.$el)
+                        _this.$el.onsubmit= "return true";
+                    }
+                }
+            }
+        } 
     }
 }())
