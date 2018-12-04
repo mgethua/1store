@@ -57,6 +57,22 @@ var register = (function () {
                             //验证成功
                             $i.innerHTML = '<img src="image/success.png">';
                             $i.style.padding = 0;
+                            console.log(_this.$inputAll[i].value)
+                            if(bool && i==0){
+                                sendAjax("php/check.php",{
+                                    method:'post',
+                                    data:_this.$inputAll[i].value
+                                })
+                                .then(data=>{
+                                    if(data == '1'){
+                                        $i.innerHTML = '用户名已经被注册';
+                                        $i.style.padding = 10 + 'px';
+                                    } else{
+                                        $i.innerHTML = '<img src="image/success.png">';
+                                        $i.style.padding = 0;
+                                    }
+                                })
+                            }
                             if(_this.$spanAll[i].innerHTML == '手机号'){
                                 _this.$btn.disabled = '';
                                 _this.$btn.onclick=function(){

@@ -3,7 +3,7 @@
 	height: 533px;
 	border-bottom: 1px solid #f4f4f4;
 	box-shadow: 1px 1px 3px #CCCCCC;
-	/*animation: run 20s linear infinite alternate;*/
+	animation: run 20s linear infinite alternate;
 	position: relative;
 }
 .mian form{
