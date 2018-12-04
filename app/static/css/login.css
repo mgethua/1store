@@ -16,7 +16,6 @@
 	top: 27px;
 	box-sizing: border-box;
 	width: 400px;
-	height: 402px;
 	background: #ffffff;
 }
 .main form .title{
@@ -112,6 +111,7 @@
 	width: 330px;
 	margin: 0 auto;
 	margin-top: 10px;
+	padding-bottom: 20px;
 }
 .main form .form_footer span{
 	color: #666;
@@ -162,6 +162,38 @@
 	background: url(../image/login_new.png) no-repeat;
 	background-position: -345px -83px;
 }
+.main form .form_footer .iconAll{
+	display: none;
+}
+.main form .form_footer .iconAll a{
+	font-size: 14px;
+}
+.main form .form_footer .iconAll .icon-zhifubao{
+	font-size: 20px;
+	margin-right: 5px
+}
+.main form .form_footer .iconAll .icon-wangyi{
+	font-size: 20px;
+	margin-right: 5px
+}
+.main form .form_footer .iconAll .icon-baidu{
+	font-size: 20px;
+	margin-right: 5px
+}
+.main form .form_footer .iconAll .icon-renrenwang{
+	font-size: 22px;
+	margin-left: 10px;
+	margin-right: 5px
+}
+.main form .form_footer .iconAll .icon-pingan{
+	font-size: 24px;
+	margin-left: 10px;
+	margin-right: 5px
+}
+.main form .form_footer .iconAll .icon-xinxingmogu{
+	font-size: 20px;
+	margin-right: 5px
+}
 .main form .two_code{
 	display: block;
 	position: absolute;
@@ -172,6 +204,54 @@
 	background: url(../image/codeSwich.png) no-repeat right;
 	background-position: -88px 0px;
 }
+
 .main form .two_code:hover{
 	background-position: -88px -88px;
+}
+.main .codeBox{
+	position: absolute;
+	right: 155px;
+	top: 27px;
+	box-sizing: border-box;
+	width: 400px;
+	height: 402px;
+	background: #ffffff;
+	z-index: -1;
+	text-align: center;
+} 
+.main .codeBox h2{
+	margin-top: 50px;
+	font-size: 14px;
+}
+.main .codeBox h2 a{
+	color: red;
+	font-weight: 900;
+}
+.main .codeBox img{
+	position: absolute;
+	top: 80px;
+	left: 110px;
+}
+.main .codeBox i{
+	display: block;
+	margin-top: 200px;
+}
+.main .codeBox i a{
+	color: #999;
+}
+.main .codeBox i a:hover{
+	color: #dd2e37;
+}
+.main .codeBox .pc{
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+	width: 62px;
+	height: 62px;
+	background: url(../image/codeSwich.png) no-repeat right;
+	background-position: 0px 0px;
+}
+.main .codeBox .pc:hover{
+	background-position: 0px -88px;
 }
