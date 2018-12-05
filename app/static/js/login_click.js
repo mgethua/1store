@@ -1,3 +1,5 @@
+var $username = document.querySelector('.username');
+var $xieyi = document.querySelector('.xieyi');
 var $two_code = document.querySelector('.two_code');
 var $codeBox = document.querySelector('.codeBox');
 var $pc = document.querySelector('.pc');
@@ -20,3 +22,6 @@ $icon.onclick=function(){
         $main.style.height= '520px'
     } 
 }
+$xieyi.style.paddingLeft="40px";
+$xieyi.style.display="inline-block";
+$xieyi.style.marginTop="10px";

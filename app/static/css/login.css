@@ -18,6 +18,32 @@
 	width: 400px;
 	background: #ffffff;
 }
+.main form .tip{
+	line-height: 30px;
+	position: absolute;
+	left: 34px;
+	width: 330px;
+	height: 30px;
+	background: #fff7d1;
+	border: 1px solid #e5debc;
+	display: none;
+}
+.main form p{
+	width: 328px;
+	color: #999;
+	margin:  0 auto;
+}
+.main form p i{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../image/tip.png") no-repeat;
+	background-size:100% 100%; 
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-top: -4px;
+	margin-left: 4px;
+}
 .main form .title{
 	margin: 0 auto;
 	margin-top: 46px;
@@ -36,7 +62,7 @@
 	box-sizing: border-box;
 	margin: 0 auto;
 }
-.main form .init .username{
+.main form .init .username {
 	width: 328px;
 	height: 52px;
 	box-sizing: border-box;
@@ -84,6 +110,11 @@
 	width: 330px;
 	margin: 0 auto;
 	margin-top: 15px;
+}
+.mian form .xieyi{
+	display: block;
+	color: #00cc00;
+
 }
 .main form .checkbox a input{
 	display: inline-block;
