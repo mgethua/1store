@@ -1,0 +1,22 @@
+{
+  "name": "1store",
+  "version": "1.0.0",
+  "description": "*这是一个电商网站\r *有注册页/登录页/详情页/购物车\r *1store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgethua/1store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgethua/1store/issues"
+  },
+  "homepage": "https://github.com/mgethua/1store#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
