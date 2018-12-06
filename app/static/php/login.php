@@ -10,7 +10,11 @@
     $coon->query("SET NAMES 'uft8'");
     $result=$coon->query($insert_sql);
     $result=$result->fetch_assoc();
-    $result = json_encode($result);
-    var_dump($result);
+    // $result = json_encode($result);
+    if($result){
+        echo "1";
+    }else{
+        echo "2";
+    }
 
 ?>
