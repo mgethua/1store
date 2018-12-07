@@ -1,0 +1,74 @@
+#top_wrapper{
+	height: 38px;
+	background: #f4f4f4;
+	border-bottom: 1px solid #e5e5e5;
+}
+.concer{
+	width: 1192px;
+	margin: 0 auto;
+}
+.top{
+	height: 38px;
+	background: #f4f4f4;
+	line-height: 38px;
+}
+.top .top_lf{
+	float: left;
+	color: #666;
+}
+.top .top_lf a{
+	color: #666;
+}
+.top .top_lf a:hover{
+	color: #ff4040;
+}
+.top .top_lf .icon-shouye{
+	color: #ff4040;
+	display: inline-block;
+	margin-right: 5px;
+}
+.top .top_rg{
+	float: right;
+}
+.top .top_rg li{
+	float: left;
+	margin: 0 10px;
+}
+.top .top_rg li .hi{
+	color: #ff4040;
+}
+.top .top_rg li .hi a{
+	color: #ff4040;
+}
+.top .top_rg li a{
+	color: #666;
+}
+.top .top_rg li a:hover{
+	color: #ff4040;
+}
+.top .top_rg .server{
+	display: flex;
+	background: #fff;
+}
+.top .top_rg .server .hd_mune{
+	background: #f4f4f4;
+	padding: 0 10px;
+}
+.top .top_rg .server .hd_list a{
+	line-height: 40px;
+	padding: 0 10px;
+	color: #333;
+	display: none;
+}
+top .top_rg .server .hd_list{
+	
+}
+.top .top_rg .server .hd_list a:hover{
+	color: #ff4040;
+}
+.top .top_rg .server:hover .server_son .hd_list a{
+	display: block;
+}
+.top .top_rg .server:hover{
+	border: 1px solid #dbdbdb;
+}
