@@ -285,7 +285,11 @@
     },
     
      {
+<<<<<<< HEAD
         "id" : "27",
+=======
+        "id" : "26",
+>>>>>>> 09e439fbf3c0329c1ad910f252acfd05c2a8b494
         "src" : "image/fdjimg/small73.jpg",
         "describe" :"花花公子增高鞋男5CM秋冬季新款透气潮流男鞋男士隐形内增高鞋男帆布鞋板鞋 ",
         "price" : "238",
@@ -296,6 +300,7 @@
 
     },
     
+<<<<<<< HEAD
 
 
 
@@ -304,6 +309,117 @@
 
 
 
+=======
+    {
+        "id" : "27",
+        "src" : "image/fdjimg/small76.jpg",
+        "describe" :"佳格LED强光手电筒远射王户外充电式应急照明矿灯8915B ",
+        "price" : "15",
+        "num" : "1",
+        "weight" : "140.00g",
+        "money" : "15",
+        "choose" :["双档手电8915B","双档手电8842","双档手电/带侧灯"]
+
+    },
+
+    {
+        "id" : "28",
+        "src" : "image/fdjimg/small79.jpg",
+        "describe" :"资生堂 沐浴露 惠润沐浴露 淡雅柑桔香650ml ",
+        "price" : "58",
+        "num" : "1",
+        "weight" : "500.00g",
+        "money" : "58",
+        "choose" :["淡雅柑桔香650L","淡雅果味香650L"]
+
+    },
+
+    {
+        "id" : "29",
+        "src" : "image/fdjimg/small82.jpg",
+        "describe" :"飞科(FLYCO)智能电动剃须刀全身水洗智能电动刮胡刀FS375 ",
+        "price" : "159",
+        "num" : "1",
+        "weight" : "0.65kg",
+        "money" : "159",
+        "choose" :["宝石蓝","奢华紫","FS375原装规24只装"]
+
+    },
+    {
+        "id" : "30",
+        "src" : "image/fdjimg/small85.jpg",
+        "describe" :"新西兰进口牛奶 纽仕兰 3.5g蛋白质全脂牛奶 250ml*24整箱装纯牛奶 ",
+        "price" : "69.9",
+        "num" : "1",
+        "weight" : "6.63kg",
+        "money" : "69.9",
+        "choose" :["250ml*24"]
+
+    },
+
+
+    {
+        "id" : "31",
+        "src" : "image/fdjimg/small88.jpg",
+        "describe" :"外交官（Diplomat）镜面扩充层箱子行李箱男女旅行箱万向轮拉杆箱密码箱TC-6013 24英寸 深蓝色 ",
+        "price" : "599",
+        "num" : "1",
+        "weight" : "5.63kg",
+        "money" : "599",
+        "choose" :["银色","红色","黑色"]
+
+    },
+
+
+    {
+        "id" : "32",
+        "src" : "image/fdjimg/small91.jpg",
+        "describe" :"迪士尼DISNEY 双面加厚宝宝爬行垫爬爬垫 防滑地垫游戏毯 加厚2cm",
+        "price" : "158",
+        "num" : "1",
+        "weight" : "2.06kg",
+        "money" : "158",
+        "choose" :["200*180*1.0CM折叠","60*60*2.0CM6片维尼","60*60*2.0CM米奇"]
+
+    },
+
+    {
+        "id" : "33",
+        "src" : "image/fdjimg/small94.jpg",
+        "describe" :"欧莱雅（LOREAL）奇焕光采粉底液R2?适合偏白肤色（保湿 遮瑕 滋润）",
+        "price" : "237",
+        "num" : "1",
+        "weight" : "140.00g",
+        "money" : "237",
+        "choose" :["粉BB","粉底液N1","粉底液R1"]
+
+    },
+
+
+    {
+        "id" : "34",
+        "src" : "image/fdjimg/small97.jpg",
+        "describe" :"习惯的力量：为什么我们会这样生活，那样工作",
+        "price" : "39.4",
+        "num" : "1",
+        "weight" : "16开",
+        "money" : "39.4",
+        "choose" :["套装","高效的秘密","习惯的力量(新版)"]
+
+    },
+
+    {
+        "id" : "35",
+        "src" : "image/fdjimg/small100.jpg",
+        "describe" :"倍思 苹果/Type-c/安卓数据线三合一快充手机充电器线",
+        "price" : "16.8",
+        "num" : "1",
+        "weight" : "80.00g",
+        "money" : "16.8",
+        "choose" :["【苹果/安卓/Tcpe-C】 一拖三 红","【苹果/安卓/Tcpe-C】 一拖三 红","【苹果/安卓/Tcpe-C】 一拖三 红"]
+
+    }
+>>>>>>> 09e439fbf3c0329c1ad910f252acfd05c2a8b494
 
 
 
