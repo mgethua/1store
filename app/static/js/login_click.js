@@ -7,6 +7,8 @@ var $form_footer =document.querySelector('.form_footer');
 var $icon =document.querySelector('.icon');
 var $iconAll =document.querySelector('.iconAll');
 var $main =document.querySelector('.main');
+var $pass = document.querySelector('.password');
+var $passSpan = document.querySelector('.mim');
 $two_code.onclick=function(){
     $codeBox.style.zIndex="1"
 }
@@ -22,6 +24,12 @@ $icon.onclick=function(){
         $main.style.height= '520px'
     } 
 }
+$pass.onfocus=function(){
+    $passSpan.style.display='none';
+}
+$username.onblur=function(){
+    $xieyi.style.display='inline-block';
+}
 $xieyi.style.paddingLeft="40px";
-$xieyi.style.display="inline-block";
+$xieyi.style.display="none";
 $xieyi.style.marginTop="10px";

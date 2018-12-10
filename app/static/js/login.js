@@ -1,13 +1,4 @@
-var loginCheck ={
-    username(str) {
-        var reg = /^\w{6,14}$/;
-        return reg.test(str);
-    },
-    password(str) {
-        var reg = /^\w{6,20}$/;
-        return reg.test(str);
-    },
-}
+
 var login = (function(){
     return{
         init(ele){
@@ -16,13 +7,30 @@ var login = (function(){
             this.$inputAll = this.$el.querySelector('.init');
             this.$user = this.$el.querySelector('.username');
             this.$pass = this.$el.querySelector('.password');
+            this.$tip = this.$el.querySelector('.tip');
             this.event()
         },
         event(){
             var _this=this;
-            // _this.$btn.onclick=function(){
-            //     sendAjax()
-            // }
+            _this.$btn.onclick=function(){
+                sendAjax('../../server/php/login.php',{
+                    method:'post',
+                    data:{
+                        username:_this.$user.value,
+                        password:_this.$pass.value
+                    }
+                })
+                .then(data=>{
+                    if(data == "11"){
+                        _this.$btn.onclick=function(){
+                            window.location="store.html";
+                        }
+                        _this.$btn.click();
+                    } else{
+                        _this.$tip.style.display = 'block'
+                    }
+                })
+            }
         }
     }
 }())
