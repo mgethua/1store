@@ -26,7 +26,8 @@ var register = (function () {
             this.$el = document.querySelector(ele);
             this.$inputAll = this.$el.querySelectorAll('input');
             this.$spanAll = this.$el.querySelectorAll('span');
-            this.$btn = this.$el.querySelector('.getcode')
+            this.$btn = this.$el.querySelector('.getcode');
+            this.$btn2 = this.$el.querySelector('.submit')
             console.log(this.$inputAll);
             console.log(this.$spanAll);
             this.timer = null;
@@ -59,7 +60,7 @@ var register = (function () {
                             $i.style.padding = 0;
                             console.log(_this.$inputAll[i].value)
                             if(bool && i==0){
-                                sendAjax("php/check.php",{
+                                sendAjax('http://10.36.141.117:7893/1store/server/php/check.php',{
                                     method:'post',
                                     data:_this.$inputAll[i].value
                                 })
@@ -67,9 +68,11 @@ var register = (function () {
                                     if(data == '1'){
                                         $i.innerHTML = '用户名已经被注册';
                                         $i.style.padding = 10 + 'px';
+                                        console.log(2)
                                     } else{
                                         $i.innerHTML = '<img src="image/success.png">';
                                         $i.style.padding = 0;
+                                        console.log(1)
                                     }
                                 })
                             }

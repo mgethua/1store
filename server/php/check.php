@@ -1,5 +1,5 @@
 <?php
-    header("Access-Control-Allow-Origin:*")
+    header("Access-Control-Allow-Origin:*");
     $requestData = file_get_contents("php://input");
     $requestData = json_decode($requestData);
     $coon=new mysqli('localhost','root','','db_student_admin',3306);
