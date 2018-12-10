@@ -1,21 +1,417 @@
 [
-    {   
-        "商品编号" : "从001开始",
-        "图片地址" : "xxxxxxx" ,
-        "描述" : "即商品名称",
-        "价格" : "20.3",
-        "数量" : "2",
-        "重量" : "2.10kg",
-        "小计" : "40.6",
-        "选择" : "xxx"
-    },
     {
-        "id" : "从001开始",
+        "id" : "01",
         "src" : "image/fdjimg/small1.jpg",
         "describe" : "摆渡人 【荐书联盟推荐】",
         "price" : "20.3",
         "num" : "2",
         "weight" : "2.10kg",
-        "money" : "40.6"
+        "money" : "40.6",
+        "choose" :"xxx"
+
+    },
+    {
+        "id" : "02",
+        "src" : "image/fdjimg/small4.jpg",
+        "describe" :"TP-LINK TL-WN726N免驱版 USB无线网卡 笔记本台式机通用随身wifi接收器",
+        "price" : "54.5",
+        "num" : "1",
+        "weight" : "90.00g",
+        "money" : "54.5",
+        "choose" :["【免驱】外置天线无线网卡","USB转RJ45网线接口千兆"]
+
+    },
+    {
+        "id" : "03",
+        "src" : "image/fdjimg/small7.jpg",
+        "describe" :"乐事（Lay’s）无限薯片 休闲零食 104g*3组合装（原味+烤肉+番茄）百事食品",
+        "price" : "20.9",
+        "num" : "2",
+        "weight" : "460.00g",
+        "money" : "41.8",
+        "choose" :["原味","烤肉","番茄"]
+
+    },
+    {
+        "id" : "04",
+        "src" : "image/fdjimg/small10.jpg",
+        "describe" :"贝亲（Pigeon）宽口径玻璃奶瓶 240ml AA70（绿色）",
+        "price" : "85.9",
+        "num" : "1",
+        "weight" : "250.00g",
+        "money" : "85.9",
+        "choose" :["160ml SS 奶嘴（绿色）","240ml M号 奶嘴（绿色）","240ml L号 奶嘴（绿色）"]
+
+    },
+    {
+        "id" : "05",
+        "src" : "image/fdjimg/small13.jpg",
+        "describe" :"斯伯丁spalding篮球NBA迷彩PU蓝球74-934y",
+        "price" : "209",
+        "num" : "1",
+        "weight" : "0.62kg",
+        "money" : "209",
+        "choose" :["数码迷彩","游戏主宰","职业篮球"]
+
+    },
+
+
+    {
+        "id" : "06",
+        "src" : "image/fdjimg/small16.jpg",
+        "describe" :"美菱(MELING)551升0.1度精控变频双开门 风冷无霜 电脑控温 纤薄对开门冰箱 玫瑰金 BCD-551WPCX",
+        "price" : "3499",
+        "num" : "1",
+        "weight" : "105.0kg",
+        "money" : "3499",
+        "choose" :["【爆款】551升变频无霜对开","【18年全面升级】569升级能效","【法式新品】359升变频彩晶玻璃"]
+
+    },
+
+    {
+        "id" : "07",
+        "src" : "image/fdjimg/small19.jpg",
+        "describe" :"泊泉雅蜂蜜柔嫩滋润手膜",
+        "price" : "19.99",
+        "num" : "1",
+        "weight" : "175.00g",
+        "money" : "19.99",
+        "choose" :["【爆款】551升变频无霜对开","【18年全面升级】569升级能效","【法式新品】359升变频彩晶玻璃"]
+
+    },
+
+
+    {
+        "id" : "09",
+        "src" : "image/fdjimg/small22.jpg",
+        "describe" :"天梭(TISSOT)瑞士手表 库图系列石英女表T035.210.11.011.00",
+        "price" : "2167",
+        "num" : "1",
+        "weight" : "0.79kg",
+        "money" : "2167",
+        "choose" :["酒红盘 皮带 石英","黑盘 钢带 石英","白盘 白色皮带 石英"]
+
+    },
+
+
+    {
+        "id" : "10",
+        "src" : "image/fdjimg/small25.jpg",
+        "describe" :"金龙鱼 食用油 葵花籽食用调和油5L",
+        "price" : "39.9",
+        "num" : "1",
+        "weight" : "4.723kg",
+        "money" : "39.9",
+        "choose" :["葵花籽实用调和油 5L"]
+
+    },
+
+    {
+        "id" : "11",
+        "src" : "image/fdjimg/small28.jpg",
+        "describe" :"飞科(FLYCO)电吹风机家用FH6218大功率吹风筒负离子 2000W",
+        "price" : "79",
+        "num" : "1",
+        "weight" : "0.93kg",
+        "money" : "79",
+        "choose" :["主推款 优雅红","浪漫紫","白色"]
+
+    },
+
+
+    {
+        "id" : "12",
+        "src" : "image/fdjimg/small31.jpg",
+        "describe" :"农心 NONG SHIM 辣白菜拉面 袋面 方便面速食食品 120g*5 五连包",
+        "price" : "19.9",
+        "num" : "1",
+        "weight" : "0.631kg",
+        "money" : "19.9",
+        "choose" :["辣白菜 拉面 五连包120*5袋","辣白菜 拌面 132*5袋"]
+
+    },
+
+    {
+        "id" : "13",
+        "src" : "image/fdjimg/small34.jpg",
+        "describe" :"CROCUS时尚百搭小鹿吊坠设计项链女士简约个性甜美创意项饰锁骨链 生日情人饰品礼物送女友闺蜜学生 玫瑰金色",
+        "price" : "159",
+        "num" : "1",
+        "weight" : "50.00g",
+        "money" : "159",
+        "choose" :["玫瑰金色"]
+
+    },
+
+    {
+        "id" : "14",
+        "src" : "image/fdjimg/small37.jpg",
+        "describe" :"华硕（ASUS） 旗舰店 轻薄PX554 15.6英寸手提笔记本电脑 银灰色 i5-8250U/8G/256G SSD",
+        "price" : "5199",
+        "num" : "1",
+        "weight" : "2.1kg",
+        "money" : "5199",
+        "choose" :["银灰色"]
+
+    },
+
+    {
+        "id" : "15",
+        "src" : "image/fdjimg/small40.png",
+        "describe" :"法国原瓶进口红酒 法国波尔多小龙船干红葡萄酒",
+        "price" : "488",
+        "num" : "1",
+        "weight" : "1.5kg",
+        "money" : "488",
+        "choose" :["750ml 六支装"]
+
+    },
+    {
+        "id" : "16",
+        "src" : "image/fdjimg/small43.jpg",
+        "describe" :"三只松鼠 坚果炒货 孕妇坚果每日坚果干果零食奶油味夏威夷果",
+        "price" : "35.9",
+        "num" : "1",
+        "weight" : "200.00g",
+        "money" : "35.9",
+        "choose" :["160g/袋"]
+
+    },
+    {
+        "id" : "17",
+        "src" : "image/fdjimg/small46.jpg",
+        "describe" :"许三观卖血记（余华2017精装典藏版，增录新版自序）",
+        "price" : "29.6",
+        "num" : "1",
+        "weight" : "2.10kg",
+        "money" : "29.6",
+        "choose" :["活着","许三观卖血记","余华经典作品集(全5册)"]
+
+    },
+
+    {
+        "id" : "18",
+        "src" : "image/fdjimg/small49.jpg",
+        "describe" :"美的（Midea）电水壶热水壶电热水壶304不锈钢1.7L容量 双层防烫烧水壶WHJ1705C",
+        "price" : "99",
+        "num" : "1",
+        "weight" : "1.39kg",
+        "money" : "99",
+        "choose" :["高硼硅玻璃水壶","北欧静音水壶","时尚碧蓝水壶"]
+
+    },
+    {
+        "id" : "19",
+        "src" : "image/fdjimg/small52.jpg",
+        "describe" :"美的（Midea）电水壶热水壶电热水壶304不锈钢1.7L容量 双层防烫烧水壶WHJ1705C",
+        "price" : "79",
+        "num" : "1",
+        "weight" : "1.075kg",
+        "money" : "79",
+        "choose" :["蓝绿色","卡其色","粉红色"]
+
+    },
+
+    {
+        "id" : "20",
+        "src" : "image/fdjimg/small55.jpg",
+        "describe" :"罗技（Logitech）K375s 多设备 安静输入 平板IPAD键盘 手机键盘 无线蓝牙键盘 全尺寸键盘",
+        "price" : "159",
+        "num" : "1",
+        "weight" : "0.69kg",
+        "money" : "159",
+        "choose" :["K 120 U口","K100 P口","K230无线键盘"]
+
+    },
+
+    {
+        "id" : "21",
+        "src" : "image/fdjimg/small58.jpg",
+        "describe" :"【祖马龙同香型网红款】名创优品（MINISO）山谷百合香体喷雾100ml 女士香水淡香持久 山谷百合",
+        "price" : "10",
+        "num" : "1",
+        "weight" : "110.00g",
+        "money" : "10",
+        "choose" :["山谷百合","薰衣草","粉红花语"]
+
+    },
+
+    {
+        "id" : "22",
+        "src" : "image/fdjimg/small61.jpg",
+        "describe" :"博朗 欧乐B（Oralb）电动牙刷头 4支装 精准清洁型 适配成人2D/3D全部型号 EB20-4",
+        "price" : "119",
+        "num" : "1",
+        "weight" : "40.00g",
+        "money" : "119",
+        "choose" :["EB20精准清洁型刷头 4支装"]
+
+    },
+
+    {
+        "id" : "23",
+        "src" : "image/fdjimg/small64.jpg",
+        "describe" :"雷士（NVC）雷士照明led餐吊灯 现代简约时尚单头餐吊灯吧台灯具 白色E27灯头无光源 EXDD1045",
+        "price" : "179",
+        "num" : "1",
+        "weight" : "2.0kg",
+        "money" : "179",
+        "choose" :["花瓣单头 底盘直径12cm","螺旋塔 直径30cm(不带光源)","万花筒 直径30cm(不带光源)"]
+
+    },
+
+ {
+        "id" : "24",
+        "src" : "image/fdjimg/small67.jpg",
+        "describe" :"戴尔DELL燃7000 pro 15.6英寸轻薄笔记本电脑(i5-8265U 8G 128GSSD 1T MX150 2G独显 FHD 背光键盘)冰河银",
+        "price" : "5499",
+        "num" : "1",
+        "weight" : "2.9kg",
+        "money" : "5499",
+        "choose" :["15.6英寸 i5-8265U MX150 冰河银","15.6英寸 i7-8265U MX150 冰河银","15.6英寸 i5-8250U MX130 冰河银"]
+
+    },
+    
+    {
+        "id" : "25",
+        "src" : "image/fdjimg/small70.jpg",
+        "describe" :"3M 空气净化剂 净呼吸 甲醛净化剂 除异味 2瓶甲醛净化剂升级版38002",
+        "price" : "92",
+        "num" : "1",
+        "weight" : "400.00g",
+        "money" : "92",
+        "choose" :["甲醛净化剂升级版38002"]
+
+    },
+    
+     {
+        "id" : "26",
+        "src" : "image/fdjimg/small73.jpg",
+        "describe" :"花花公子增高鞋男5CM秋冬季新款透气潮流男鞋男士隐形内增高鞋男帆布鞋板鞋 ",
+        "price" : "238",
+        "num" : "1",
+        "weight" : "500.00g",
+        "money" : "238",
+        "choose" :["白黑内增高","白色内增高","黑色内增高"]
+
+    },
+    
+    {
+        "id" : "27",
+        "src" : "image/fdjimg/small76.jpg",
+        "describe" :"佳格LED强光手电筒远射王户外充电式应急照明矿灯8915B ",
+        "price" : "15",
+        "num" : "1",
+        "weight" : "140.00g",
+        "money" : "15",
+        "choose" :["双档手电8915B","双档手电8842","双档手电/带侧灯"]
+
+    },
+
+    {
+        "id" : "28",
+        "src" : "image/fdjimg/small79.jpg",
+        "describe" :"资生堂 沐浴露 惠润沐浴露 淡雅柑桔香650ml ",
+        "price" : "58",
+        "num" : "1",
+        "weight" : "500.00g",
+        "money" : "58",
+        "choose" :["淡雅柑桔香650L","淡雅果味香650L"]
+
+    },
+
+    {
+        "id" : "29",
+        "src" : "image/fdjimg/small82.jpg",
+        "describe" :"飞科(FLYCO)智能电动剃须刀全身水洗智能电动刮胡刀FS375 ",
+        "price" : "159",
+        "num" : "1",
+        "weight" : "0.65kg",
+        "money" : "159",
+        "choose" :["宝石蓝","奢华紫","FS375原装规24只装"]
+
+    },
+    {
+        "id" : "30",
+        "src" : "image/fdjimg/small85.jpg",
+        "describe" :"新西兰进口牛奶 纽仕兰 3.5g蛋白质全脂牛奶 250ml*24整箱装纯牛奶 ",
+        "price" : "69.9",
+        "num" : "1",
+        "weight" : "6.63kg",
+        "money" : "69.9",
+        "choose" :["250ml*24"]
+
+    },
+
+
+    {
+        "id" : "31",
+        "src" : "image/fdjimg/small88.jpg",
+        "describe" :"外交官（Diplomat）镜面扩充层箱子行李箱男女旅行箱万向轮拉杆箱密码箱TC-6013 24英寸 深蓝色 ",
+        "price" : "599",
+        "num" : "1",
+        "weight" : "5.63kg",
+        "money" : "599",
+        "choose" :["银色","红色","黑色"]
+
+    },
+
+
+    {
+        "id" : "32",
+        "src" : "image/fdjimg/small91.jpg",
+        "describe" :"迪士尼DISNEY 双面加厚宝宝爬行垫爬爬垫 防滑地垫游戏毯 加厚2cm",
+        "price" : "158",
+        "num" : "1",
+        "weight" : "2.06kg",
+        "money" : "158",
+        "choose" :["200*180*1.0CM折叠","60*60*2.0CM6片维尼","60*60*2.0CM米奇"]
+
+    },
+
+    {
+        "id" : "33",
+        "src" : "image/fdjimg/small94.jpg",
+        "describe" :"欧莱雅（LOREAL）奇焕光采粉底液R2?适合偏白肤色（保湿 遮瑕 滋润）",
+        "price" : "237",
+        "num" : "1",
+        "weight" : "140.00g",
+        "money" : "237",
+        "choose" :["粉BB","粉底液N1","粉底液R1"]
+
+    },
+
+
+    {
+        "id" : "34",
+        "src" : "image/fdjimg/small97.jpg",
+        "describe" :"习惯的力量：为什么我们会这样生活，那样工作",
+        "price" : "39.4",
+        "num" : "1",
+        "weight" : "16开",
+        "money" : "39.4",
+        "choose" :["套装","高效的秘密","习惯的力量(新版)"]
+
+    },
+
+    {
+        "id" : "35",
+        "src" : "image/fdjimg/small100.jpg",
+        "describe" :"倍思 苹果/Type-c/安卓数据线三合一快充手机充电器线",
+        "price" : "16.8",
+        "num" : "1",
+        "weight" : "80.00g",
+        "money" : "16.8",
+        "choose" :["【苹果/安卓/Tcpe-C】 一拖三 红","【苹果/安卓/Tcpe-C】 一拖三 红","【苹果/安卓/Tcpe-C】 一拖三 红"]
+
     }
+
+
+
+
+
+
+
+
+
 ]
