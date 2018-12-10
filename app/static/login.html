@@ -1,102 +1,74 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>登录</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
-		<link rel="stylesheet" type="text/css" href="css/common.css"/>
-		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
-		<link rel="stylesheet" type="text/css" href="css/login.css"/>
-	</head>
-	<body>
-		<section id="header_wrapper">
-	        <header class="header center">
-	            <section class="logo">
-	                <h1>
-	                    <a href="#" title="1号店">1号店，欢迎您</a>
-	                </h1>
-	            </section>
-	            <section class="login">
-	            	<span class="login_in">您好，欢迎光临1号店  <a href="#">请登录</a></span>
-	            	<section class="help">
-	            		<div class="help_son">
-	            			<a href="#" class="first_help"><i class="help_left"></i>帮助中心<i class="help_right"></i></a>
-	            			<ul class="help_list">
-		            			<li><a href="#">包裹跟踪</a></li>
-		            			<li><a href="#">常见问题</a></li>
-		            			<li><a href="#">在线退换货</a></li>
-		            			<li><a href="#">在线投诉</a></li>
-	            			</ul>
-	            		</div>
-	            	</section>
-	            </section>            
-	        </header>
-        </section>
-        <section id="main_wrapper">
-            <section class="main center">
-            	<form>
-					<div class="tip clearfix">
-						<p><i></i>账号和密码不匹配,请重新输入</p>
-					</div>
-            		<div class="title">
-	            		<h3>1号店用户登录</h3>
-	            		<a href="regist.html" class="sendin">注册新账号</a>
-            		</div>
-            		<div class="init">
-            			<i class="user"></i><input type="text" name="username" class="username" placeholder="邮箱/手机/用户名"/><br />
-            			<i class="pass"></i><input type="password" name="password" class="password"/>
-            			<span class="mim">密码</span>
-            		</div>
-            		<div class="checkbox">
-            			<a><input type="checkbox" name="check"/>自动登录</a>
-            			<a href="#" class="forget">忘记密码？</a><br />
-					</div>
-					<i class="xieyi">点击注册，表示您同意1号店<a href="#">《服务协议及隐私声明》</a></i>
-					<button type="button" class="btn">登录</button>
-            		<div class="form_footer">
-            			<span>更多合作网站登录</span>
-	            		<div>
-		            		<a href="#"><i class="iconfont icon-qq"></i></a>
-		            		<a href="#"><i class="iconfont icon-jingdongbaitiao"></i></a>
-		            		<a href="#"><i class="iconfont icon-unie655"></i></a>
-		            		<a href="#"><i class="iconfont icon-weibo-copy"></i></a>
-							<p class="icon"><a href="#">更多合作网站<i></i></a></p>
-							<div class="iconAll">
-								<a href="#"><i class="iconfont icon-zhifubao"></i>支付宝</a>
-								<a href="#"><i class="iconfont icon-wangyi"></i>网易</a>
-								<a href="#"><i class="iconfont icon-baidu"></i>百度</a>
-								<a href="#"><i class="iconfont icon-renrenwang"></i>人人网</a>
-								<a href="#"><i class="iconfont icon-pingan"></i>平安万里通</a>
-								<a href="#"><i class="iconfont icon-xinxingmogu"></i>蘑菇街</a>
-							</div>
-	            		</div>	
-					</div>
-            		<i class="two_code"></i>
-				</form>
-				<div class="codeBox">
-					<h2>用<a href="#">1号店App</a>登录</h2>
-					<img src="image/code.png"/>
-					<i><a href="#">刷新二维码</a></i>
-					<span class="pc"></span>
-				</div>
-            </section>
-            <footer id="footer_wrapper">
-    	<section class="footer center">
-    		<div class="footer_son">
-	    		<a href="#">沪ICP备16050468号</a>&nbsp; | &nbsp;
-	    		<a href="#">沪B2-20170039</a> |&nbsp;
-	    		<a href="#">营业执照</a>
-	    		<p>Copyright © 1号店网上超市 2007-2018，All Rights Reserved</p>
-    		</div>
-    	</section>
-        </section>
-        
-	</footer>
-	<script src="js/login_click.js"></script>
-	<script src="js/ajax.js"></script>
-	<script src="js/login.js"></script>
-	<script>
-		login.init('form');
-	</script>
-	</body>
+<head>
+<meta charset="UTF-8">
+<title>登录</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+<section id="header_wrapper"><header class="header center"><section class="logo">
+<h1><a href="#" title="1号店">1号店，欢迎您</a></h1>
+</section><section class="login"><span class="login_in">您好，欢迎光临1号店 <a href="#">请登录</a></span><section class="help">
+<div class="help_son">
+	<a href="#" class="first_help"><i class="help_left"></i>帮助中心<i class="help_right"></i></a>
+	<ul class="help_list">
+		<li><a href="#">包裹跟踪</a></li>
+		<li><a href="#">常见问题</a></li>
+		<li><a href="#">在线退换货</a></li>
+		<li><a href="#">在线投诉</a></li>
+	</ul>
+</div>
+</section></section></header></section><section id="main_wrapper"><section class="main center">
+<form>
+	<div class="tip clearfix">
+		<p>
+			<i></i>账号和密码不匹配,请重新输入
+		</p>
+	</div>
+	<div class="title">
+		<h3>1号店用户登录</h3>
+		<a href="regist.html" class="sendin">注册新账号</a>
+	</div>
+	<div class="init">
+		<i class="user"></i><input type="text" name="username" class="username" placeholder="邮箱/手机/用户名"><br>
+		<i class="pass"></i><input type="password" name="password" class="password"><span class="mim">密码</span>
+	</div>
+	<div class="checkbox">
+		<a><input type="checkbox" name="check">自动登录</a><a href="#" class="forget">忘记密码？</a><br>
+	</div>
+	<i class="xieyi">点击注册，表示您同意1号店<a href="#">《服务协议及隐私声明》</a></i><button type="button" class="btn">登录</button>
+	<div class="form_footer">
+		<span>更多合作网站登录</span>
+		<div>
+			<a href="#"><i class="iconfont icon-qq"></i></a><a href="#"><i class="iconfont icon-jingdongbaitiao"></i></a><a href="#"><i class="iconfont icon-unie655"></i></a><a href="#"><i class="iconfont icon-weibo-copy"></i></a>
+			<p class="icon">
+				<a href="#">更多合作网站<i></i></a>
+			</p>
+			<div class="iconAll">
+				<a href="#"><i class="iconfont icon-zhifubao"></i>支付宝</a><a href="#"><i class="iconfont icon-wangyi"></i>网易</a><a href="#"><i class="iconfont icon-baidu"></i>百度</a><a href="#"><i class="iconfont icon-renrenwang"></i>人人网</a><a href="#"><i class="iconfont icon-pingan"></i>平安万里通</a><a href="#"><i class="iconfont icon-xinxingmogu"></i>蘑菇街</a>
+			</div>
+		</div>
+	</div>
+	<i class="two_code"></i>
+</form>
+<div class="codeBox">
+	<h2>用<a href="#">1号店App</a>登录</h2>
+	<img src="image/code.png"><i><a href="#">刷新二维码</a></i><span class="pc"></span>
+</div>
+</section><footer id="footer_wrapper"><section class="footer center">
+<div class="footer_son">
+	<a href="#">沪ICP备16050468号</a>&nbsp; | &nbsp; <a href="#">沪B2-20170039</a> |&nbsp; <a href="#">营业执照</a>
+	<p>
+		Copyright © 1号店网上超市 2007-2018，All Rights Reserved
+	</p>
+</div>
+</section></footer></section>
+<script src="js/login_click.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/login.js"></script>
+<script>login.init('form');</script>
+</body>
 </html>

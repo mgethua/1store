@@ -1,24 +1,27 @@
-#main_wrapper{
+#main_wrapper {
 	width: 100%;
 	height: 440px;
 	background: #fcfcfc;
 	margin: 0;
-	position: relative;
+	position: relative
 }
-.main{
+
+.main {
 	width: 100%;
 	height: 440px;
-	background: #fcfcfc url(../image/login_pic.png) no-repeat 150px 70px;
+	background: #fcfcfc url(../image/login_pic.png) no-repeat 150px 70px
 }
-.main form{
+
+.main form {
 	position: absolute;
 	right: 155px;
 	top: 27px;
 	box-sizing: border-box;
 	width: 400px;
-	background: #ffffff;
+	background: #fff
 }
-.main form .tip{
+
+.main form .tip {
 	line-height: 30px;
 	position: absolute;
 	left: 34px;
@@ -27,67 +30,77 @@
 	height: 30px;
 	background: #fff7d1;
 	border: 1px solid #e5debc;
-	display: none;
+	display: none
 }
-.main form p{
+
+.main form p {
 	width: 328px;
 	color: #999;
-	margin:  0 auto;
+	margin: 0 auto
 }
-.main form p i{
+
+.main form p i {
 	display: inline-block;
 	width: 16px;
 	height: 16px;
-	background: url("../image/tip.png") no-repeat;
-	background-size:100% 100%; 
+	background: url(../image/tip.png) no-repeat;
+	background-size: 100% 100%;
 	margin-right: 10px;
 	vertical-align: middle;
 	margin-top: -4px;
-	margin-left: 4px;
+	margin-left: 4px
 }
-.main form .title{
+
+.main form .title {
 	margin: 0 auto;
 	margin-top: 46px;
-	width: 330px;
+	width: 330px
 }
-.main form .title h3{
+
+.main form .title h3 {
 	display: inline-block;
 	font-size: 14px;
-	font-weight: 900;
+	font-weight: 900
 }
-.main form .title a{
-	float: right;
+
+.main form .title a {
+	float: right
 }
-.main form .init{
+
+.main form .init {
 	width: 330px;
 	box-sizing: border-box;
-	margin: 0 auto;
+	margin: 0 auto
 }
+
 .main form .init .username {
 	width: 328px;
 	height: 52px;
 	box-sizing: border-box;
 	padding-left: 60px;
 	border: 1px solid #dedede;
-	margin-top: 8px;
+	margin-top: 8px
 }
-.main form .init .password{
+
+.main form .init .password {
 	width: 328px;
 	height: 52px;
 	box-sizing: border-box;
 	padding-left: 60px;
 	border: 1px solid #dedede;
-	margin-top: 10px;
+	margin-top: 10px
 }
-.main form .init span{
+
+.main form .init span {
 	display: block;
 	position: absolute;
 	left: 100px;
 	top: 152px;
 	font-size: 14px;
-	color: #757575;
+	color: #757575
 }
-.main form .init .user{
+
+.main form .init .user {
 	display: block;
 	position: absolute;
 	left: 50px;
@@ -95,9 +108,10 @@
 	width: 16px;
 	height: 16px;
 	background: url(../image/login_new.png) no-repeat;
-	background-position: -344px -216px;
+	background-position: -344px -216px
 }
-.main form .init .pass{
+
+.main form .init .pass {
 	display: block;
 	position: absolute;
 	left: 50px;
@@ -105,198 +119,231 @@
 	width: 16px;
 	height: 18px;
 	background: url(../image/login_new.png) no-repeat;
-	background-position: -344px -103px;
+	background-position: -344px -103px
 }
-.main form .checkbox{
+
+.main form .checkbox {
 	width: 330px;
 	margin: 0 auto;
-	margin-top: 15px;
+	margin-top: 15px
 }
-.mian form .xieyi{
-	display: block;
-	color: #00cc00;
 
+.mian form .xieyi {
+	display: block;
+	color: #0c0
 }
-.main form .checkbox a input{
-	display: inline-block;
+
+.main form .checkbox a input {
+	display: inline-block
 }
-.main form .checkbox a{
+
+.main form .checkbox a {
 	color: #999;
-	display: inline-block;	
+	display: inline-block
 }
-.main form .checkbox .forget{	
-	float: right;
+
+.main form .checkbox .forget {
+	float: right
 }
-.main form .btn{
+
+.main form .btn {
 	padding: 0;
 	width: 330px;
 	height: 52px;
 	background: #ff3c3c;
-	/* border: 0; */
 	color: #fff;
 	font-size: 16px;
-	/* outline: none; */
-	margin-left: 35px;;
-	margin-top: 16px;
+	margin-left: 35px;
+	margin-top: 16px
 }
-.main form .login{
+
+.main form .login {
 	position: absolute;
 	width: 330px;
 	height: 52px;
 	left: 35px;
 	top: 264px;
-	z-index: -1;
+	z-index: -1
 }
-.main form .login a{
+
+.main form .login a {
 	display: block;
 	width: 330px;
-	height: 52px;
+	height: 52px
 }
-.main form .form_footer{
+
+.main form .form_footer {
 	width: 330px;
 	margin: 0 auto;
 	margin-top: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 20px
 }
-.main form .form_footer span{
+
+.main form .form_footer span {
 	color: #666;
 	display: block;
 	width: 330px;
-	font-size: 14px;
+	font-size: 14px
 }
-.main form .form_footer div{
+
+.main form .form_footer div {
 	margin-top: 12px;
 	height: 32px;
 	width: 330px;
 	line-height: 32px;
-	display: inline-block;
+	display: inline-block
 }
-.main form .form_footer div a{
+
+.main form .form_footer div a {
 	margin: 0;
-	padding: 0;
+	padding: 0
 }
-.main form .form_footer div a:nth-child(1) i{
+
+.main form .form_footer div a:nth-child(1) i {
 	font-size: 32px;
-	color: #10a8ff;
+	color: #10a8ff
 }
-.main form .form_footer div a:nth-child(2) i{
-	font-size: 32px;
-	margin-left: 16px;
-	color: #c81825;
-}
-.main form .form_footer div a:nth-child(3) i{
+
+.main form .form_footer div a:nth-child(2) i {
 	font-size: 32px;
 	margin-left: 16px;
-	color: #00cc00;
+	color: #c81825
 }
-.main form .form_footer div a:nth-child(4) i{
+
+.main form .form_footer div a:nth-child(3) i {
 	font-size: 32px;
 	margin-left: 16px;
-	color: #dd2e37;
+	color: #0c0
 }
-.main form .form_footer p{
+
+.main form .form_footer div a:nth-child(4) i {
+	font-size: 32px;
+	margin-left: 16px;
+	color: #dd2e37
+}
+
+.main form .form_footer p {
 	display: inline-block;
 	float: right;
-	padding-right: 20px;
+	padding-right: 20px
 }
-.main form .form_footer p i{
+
+.main form .form_footer p i {
 	display: inline-block;
 	margin-left: 4px;
 	width: 15px;
 	height: 12px;
 	background: url(../image/login_new.png) no-repeat;
-	background-position: -345px -83px;
+	background-position: -345px -83px
 }
-.main form .form_footer .iconAll{
-	display: none;
+
+.main form .form_footer .iconAll {
+	display: none
 }
-.main form .form_footer .iconAll a{
-	font-size: 14px;
+
+.main form .form_footer .iconAll a {
+	font-size: 14px
 }
-.main form .form_footer .iconAll .icon-zhifubao{
+
+.main form .form_footer .iconAll .icon-zhifubao {
 	font-size: 20px;
 	margin-right: 5px
 }
-.main form .form_footer .iconAll .icon-wangyi{
+
+.main form .form_footer .iconAll .icon-wangyi {
 	font-size: 20px;
 	margin-right: 5px
 }
-.main form .form_footer .iconAll .icon-baidu{
+
+.main form .form_footer .iconAll .icon-baidu {
 	font-size: 20px;
 	margin-right: 5px
 }
-.main form .form_footer .iconAll .icon-renrenwang{
+
+.main form .form_footer .iconAll .icon-renrenwang {
 	font-size: 22px;
 	margin-left: 10px;
 	margin-right: 5px
 }
-.main form .form_footer .iconAll .icon-pingan{
+
+.main form .form_footer .iconAll .icon-pingan {
 	font-size: 24px;
 	margin-left: 10px;
 	margin-right: 5px
 }
-.main form .form_footer .iconAll .icon-xinxingmogu{
+
+.main form .form_footer .iconAll .icon-xinxingmogu {
 	font-size: 20px;
 	margin-right: 5px
 }
-.main form .two_code{
+
+.main form .two_code {
 	display: block;
 	position: absolute;
 	right: 0;
-	bottom: 0px;
+	bottom: 0;
 	width: 62px;
 	height: 62px;
 	background: url(../image/codeSwich.png) no-repeat right;
-	background-position: -88px 0px;
+	background-position: -88px 0
 }
 
-.main form .two_code:hover{
-	background-position: -88px -88px;
+.main form .two_code:hover {
+	background-position: -88px -88px
 }
-.main .codeBox{
+
+.main .codeBox {
 	position: absolute;
 	right: 155px;
 	top: 27px;
 	box-sizing: border-box;
 	width: 400px;
 	height: 402px;
-	background: #ffffff;
+	background: #fff;
 	z-index: -1;
-	text-align: center;
-} 
-.main .codeBox h2{
+	text-align: center
+}
+
+.main .codeBox h2 {
 	margin-top: 50px;
-	font-size: 14px;
+	font-size: 14px
 }
-.main .codeBox h2 a{
+
+.main .codeBox h2 a {
 	color: red;
-	font-weight: 900;
+	font-weight: 900
 }
-.main .codeBox img{
+
+.main .codeBox img {
 	position: absolute;
 	top: 80px;
-	left: 110px;
+	left: 110px
 }
-.main .codeBox i{
+
+.main .codeBox i {
 	display: block;
-	margin-top: 200px;
+	margin-top: 200px
 }
-.main .codeBox i a{
-	color: #999;
+
+.main .codeBox i a {
+	color: #999
 }
-.main .codeBox i a:hover{
-	color: #dd2e37;
+
+.main .codeBox i a:hover {
+	color: #dd2e37
 }
-.main .codeBox .pc{
+
+.main .codeBox .pc {
 	display: block;
 	position: absolute;
 	right: 0;
-	bottom: 0px;
+	bottom: 0;
 	width: 62px;
 	height: 62px;
 	background: url(../image/codeSwich.png) no-repeat right;
-	background-position: 0px 0px;
+	background-position: 0 0
 }
-.main .codeBox .pc:hover{
-	background-position: 0px -88px;
+
+.main .codeBox .pc:hover {
+	background-position: 0 -88px
 }

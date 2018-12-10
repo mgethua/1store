@@ -1,370 +1,435 @@
-#top_wrapper{
+#top_wrapper {
 	height: 38px;
 	background: #f4f4f4;
-	border-bottom: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5
 }
-.concer{
+
+.concer {
 	width: 1208px;
-	margin: 0 auto;
+	margin: 0 auto
 }
-.concer2{
+
+.concer2 {
 	width: 1198px;
-	margin: 0 auto;
+	margin: 0 auto
 }
-.top{
+
+.top {
 	height: 38px;
 	background: #f4f4f4;
-	line-height: 38px;
+	line-height: 38px
 }
-.top .top_lf{
+
+.top .top_lf {
 	float: left;
-	color: #666;
+	color: #666
 }
-.top .top_lf a{
-	color: #666;
+
+.top .top_lf a {
+	color: #666
 }
-.top .top_lf a:hover{
-	color: #ff4040;
+
+.top .top_lf a:hover {
+	color: #ff4040
 }
-.top .top_lf .icon-shouye{
+
+.top .top_lf .icon-shouye {
 	color: #ff4040;
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 5px
 }
-.top .top_rg{
-	float: right;
+
+.top .top_rg {
+	float: right
 }
-.top .top_rg li{
+
+.top .top_rg li {
 	float: left;
-	margin: 0 10px;
+	margin: 0 10px
 }
-.top .top_rg li .hi{
-	color: #ff4040;
+
+.top .top_rg li .hi {
+	color: #ff4040
 }
-.top .top_rg li .hi a{
-	color: #ff4040;
+
+.top .top_rg li .hi a {
+	color: #ff4040
 }
-.top .top_rg li a{
-	color: #666;
+
+.top .top_rg li a {
+	color: #666
 }
-.top .top_rg li a:hover{
-	color: #ff4040;
+
+.top .top_rg li a:hover {
+	color: #ff4040
 }
-.top .top_rg .server{
+
+.top .top_rg .server {
 	position: relative;
-	background: #fff;
+	background: #fff
 }
-.top .top_rg .server .hd_mune{
+
+.top .top_rg .server .hd_mune {
 	background: #f4f4f4;
-	padding: 0 10px;
+	padding: 0 10px
 }
-.top .top_rg .server .help_son{
-	position: absolute;
+
+.top .top_rg .server .help_son {
+	position: absolute
 }
-.top .top_rg .server .hd_list a{
+
+.top .top_rg .server .hd_list a {
 	line-height: 40px;
 	padding: 0 10px;
 	color: #333;
-	display: none;
+	display: none
 }
-.top .top_rg .server .hd_list a:hover{
-	color: #ff4040;
+
+.top .top_rg .server .hd_list a:hover {
+	color: #ff4040
 }
-.top .top_rg .server:hover .server_son .hd_list a{
-	display: block;
+
+.top .top_rg .server:hover .server_son .hd_list a {
+	display: block
 }
-.top .top_rg .server:hover{
-	border: 1px solid #dbdbdb;
+
+.top .top_rg .server:hover {
+	border: 1px solid #dbdbdb
 }
-#main_wrapper{
+
+#main_wrapper {
 	height: 100%;
-	background: #f8f8f8;
+	background: #f8f8f8
 }
-.header{
+
+.header {
 	height: 80px;
 	background: #f8f8f8;
-	position: relative;
+	position: relative
 }
-.header .lgfather{
+
+.header .lgfather {
 	height: 80px;
-	float: left;
+	float: left
 }
-.header .logo{
+
+.header .logo {
 	box-sizing: border-box;
 	float: left;
 	height: 80px;
 	width: 126px;
-	padding-top: 28px;
+	padding-top: 28px
 }
-.header .logo a:nth-child(1){
+
+.header .logo a:nth-child(1) {
 	display: inline-block;
 	width: 40px;
 	height: 28px;
-	background: url(../image/shopcarimg/logo.png) no-repeat;
+	background: url(../image/shopcarimg/logo.png) no-repeat
 }
-.header .logo a:nth-child(2){
+
+.header .logo a:nth-child(2) {
 	display: inline-block;
 	width: 73px;
 	height: 22px;
-	background: url(../image/shopcarimg/logo_txt.png) no-repeat;
+	background: url(../image/shopcarimg/logo_txt.png) no-repeat
 }
-.header .lgfather .send{
+
+.header .lgfather .send {
 	float: left;
 	width: 286px;
 	height: 80px;
-	margin-left: 10px;
+	margin-left: 10px
 }
-.header .lgfather .send span{
+
+.header .lgfather .send span {
 	display: inline-block;
 	margin-top: 40px;
-	float: left;
+	float: left
 }
-.header .lgfather .send div{
-	border: 1px solid #CCCCCC;
+
+.header .lgfather .send div {
+	border: 1px solid #ccc;
 	background: #fcfbfb;
 	height: 26px;
 	border-radius: 4px;
 	float: left;
 	margin-top: 34px;
-	margin-left: 10px;
+	margin-left: 10px
 }
-.header .lgfather .send div a{
+
+.header .lgfather .send div a {
 	display: inline-block;
 	line-height: 26px;
-	color: #666666;
-	padding: 0 6px;
+	color: #666;
+	padding: 0 6px
 }
-.header .search{
+
+.header .search {
 	position: absolute;
 	right: 0;
 	top: 26px;
 	height: 40px;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: middle
 }
-.header .search input{
+
+.header .search input {
 	display: inline-block;
 	vertical-align: middle;
 	width: 280px;
 	height: 32px;
 	box-sizing: border-box;
 	padding-left: 15px;
-	border: 1px solid #CCCCCC;
+	border: 1px solid #ccc;
 	border-radius: 4px;
 	border-right: 0;
 	background: #fcfbfb;
-	outline: none;
+	outline: 0
 }
-.header .search button{
+
+.header .search button {
 	vertical-align: middle;
 	display: inline-block;
 	margin-left: -6px;
-	border: 1px solid #CCCCCC;
+	border: 1px solid #ccc;
 	border-radius: 4px;
 	border-left: 0;
 	width: 50px;
 	height: 32px;
 	background: #fcfbfb;
-	outline: none;
+	outline: 0
 }
-.content p{
-	height: 1px;
+
+.content p {
+	height: 1px
 }
-.title{
+
+.title {
 	height: 40px;
 	border: 1px solid #dfdfdf;
-	border-radius:4px ;
+	border-radius: 4px;
 	line-height: 40px;
 	background: #fff;
 	margin: 10px auto;
 	padding: 0 18px;
-	box-sizing: border-box;
+	box-sizing: border-box
 }
-.title .checkbox{
+
+.title .checkbox {
 	display: inline-block;
 	width: 125px;
-	height: 40px;
-	
+	height: 40px
 }
-.title .tit{
+
+.title .tit {
 	display: inline-block;
 	width: 48px;
-	height: 40px;
+	height: 40px
 }
-.title .price{
+
+.title .price {
 	display: inline-block;
 	width: 162px;
 	height: 40px;
-	text-align: right;
+	text-align: right
 }
-.title .num{
+
+.title .num {
 	display: inline-block;
 	width: 170px;
 	height: 40px;
-	text-align: center;
+	text-align: center
 }
-.title .total{
+
+.title .total {
 	display: inline-block;
 	width: 80px;
 	height: 40px;
-	padding-right: 20px;
+	padding-right: 20px
 }
-.title .act{
+
+.title .act {
 	display: inline-block;
 	width: 80px;
 	height: 40px;
-	text-align: center;
+	text-align: center
 }
-.content>.list{
+
+.content>.list {
 	height: 56px;
 	line-height: 56px;
-	background: #fff;
+	background: #fff
 }
-.content>.list .fsfloor{
+
+.content>.list .fsfloor {
 	height: 56px;
 	border: 1px solid #dcdcdc;
 	box-sizing: border-box;
 	border-bottom: none;
 	line-height: 56px;
-	background: #fff;
+	background: #fff
 }
-.content>.list .fsfloor .titlelf{
+
+.content>.list .fsfloor .titlelf {
 	display: inline-block;
 	float: left;
-	margin-left: 30px;
+	margin-left: 30px
 }
-.content>.list .fsfloor .free_pos{
+
+.content>.list .fsfloor .free_pos {
 	display: inline-block;
 	position: relative;
 	float: right;
-	margin-right: 32px;
+	margin-right: 32px
 }
-.content>.list .fsfloor .free_pos .icon-gou{
-	color: #6ca733;
+
+.content>.list .fsfloor .free_pos .icon-gou {
+	color: #6ca733
 }
-.content>.list .fsfloor .free_pos .hlist{
-	display: inline-block;
+
+.content>.list .fsfloor .free_pos .hlist {
+	display: inline-block
 }
-.content>.list .fsfloor .free_pos .icon-wenhao{
-	color: #fda55b;
+
+.content>.list .fsfloor .free_pos .icon-wenhao {
+	color: #fda55b
 }
-.content>.list .fsfloor .free_pos p{
+
+.content>.list .fsfloor .free_pos p {
 	position: absolute;
 	line-height: 0;
 	left: -200px;
 	top: 45px;
 	padding: 10px;
 	width: 270px;
-	background: papayawhip;
-	display: none;
+	background: #ffefd5;
+	display: none
 }
-.content>.list .fsfloor .free_pos .hlist:hover p{
+
+.content>.list .fsfloor .free_pos .hlist:hover p {
 	display: block;
-	border: 1px solid #cccccc;
+	border: 1px solid #ccc
 }
-.content>.list .car_list{
+
+.content>.list .car_list {
 	background: #fff;
-	border: 1px solid #cccccc;
-	
+	border: 1px solid #ccc
 }
-.content>.list .car_list .list_data{
+
+.content>.list .car_list .list_data {
 	height: 114px;
-	padding: 0px 30px;
-	line-height: 114px;
+	padding: 0 30px;
+	line-height: 114px
 }
-.content>.list .car_list .list_data .practical_data .dan{
-	margin-right: 20px;	
+
+.content>.list .car_list .list_data .practical_data .dan {
+	margin-right: 20px
 }
-.content>.list .car_list .list_data .practical_data .describe{
+
+.content>.list .car_list .list_data .practical_data .describe {
 	display: inline-block;
 	line-height: 20px;
 	width: 260px;
 	height: 40px;
 	box-sizing: border-box;
 	padding-left: 20px;
-	padding-top: 4px;
+	padding-top: 4px
 }
-.content>.list .car_list .list_data .practical_data .item_price{
+
+.content>.list .car_list .list_data .practical_data .item_price {
 	display: inline-block;
 	width: 160px;
 	height: 24px;
-	text-align: right;
+	text-align: right
 }
-.content>.list .car_list .list_data .practical_data .item_num{
+
+.content>.list .car_list .list_data .practical_data .item_num {
 	display: inline-block;
 	width: 205px;
 	height: 26px;
 	box-sizing: border-box;
-	padding-left: 125px;
+	padding-left: 125px
 }
-.content>.list .car_list .list_data .practical_data .item_num .zong{
+
+.content>.list .car_list .list_data .practical_data .item_num .zong {
 	width: 80px;
 	height: 26px;
-	line-height: 26px;
+	line-height: 26px
 }
-.content>.list .car_list .list_data .practical_data .item_num .zong input{
+
+.content>.list .car_list .list_data .practical_data .item_num .zong input {
 	width: 40px;
 	text-align: center;
 	border: 1px solid #dfdfdf;
-	display: inline-block;
+	display: inline-block
 }
-.content>.list .car_list .list_data .practical_data .item_num .zong .reduce{
+
+.content>.list .car_list .list_data .practical_data .item_num .zong .reduce {
 	width: 20px;
 	display: inline-block;
 	border: 1px solid #dfdfdf;
-	border-right:0 ;
+	border-right: 0;
 	margin-right: -5px;
-	outline: none;
+	outline: 0
 }
-.content>.list .car_list .list_data .practical_data .item_num .zong .add{
+
+.content>.list .car_list .list_data .practical_data .item_num .zong .add {
 	width: 20px;
 	display: inline-block;
 	border: 1px solid #dfdfdf;
-	border-left:0 ;
+	border-left: 0;
 	margin-left: -5px;
-	outline: none;
+	outline: 0
 }
-.content>.list .car_list .list_data .practical_data .item_amount{
+
+.content>.list .car_list .list_data .practical_data .item_amount {
 	display: inline-block;
 	line-height: 20px;
 	margin-left: 150px;
 	text-align: right;
-	vertical-align: middle;
+	vertical-align: middle
 }
-.content>.list .car_list .list_data .practical_data .item_amount .item_a_money{
-	font-weight: 900;
+
+.content>.list .car_list .list_data .practical_data .item_amount .item_a_money {
+	font-weight: 900
 }
-.content>.list .car_list .list_data .practical_data .item_act{
+
+.content>.list .car_list .list_data .practical_data .item_act {
 	display: inline-block;
 	width: 80px;
 	height: 29px;
-	margin-left: 30px;
+	margin-left: 30px
 }
-.content>.list .car_list .list_data .practical_data .item_act .icon-02{
+
+.content>.list .car_list .list_data .practical_data .item_act .icon-02 {
 	display: inline-block;
 	font-size: 24px;
-	vertical-align: middle;
+	vertical-align: middle
 }
-.content>.list .car_list .list_data .practical_data .item_act .icon-lajitong{
+
+.content>.list .car_list .list_data .practical_data .item_act .icon-lajitong {
 	font-size: 28px;
 	margin-left: 10px;
-	color: #999999;
-	vertical-align: middle;
+	color: #999;
+	vertical-align: middle
 }
-.content>.list .cart_amount{
+
+.content>.list .cart_amount {
 	text-align: right;
 	background: #fefcfc;
 	padding-right: 40px;
 	border: 1px solid #dcdcdc;
 	border-top: none;
-	box-sizing: border-box;
-	
+	box-sizing: border-box
 }
-.content>.list .cart_amount .amount{
+
+.content>.list .cart_amount .amount {
 	text-align: right;
-	font-size: 14px;
+	font-size: 14px
 }
-.content>.list .cart_amount .amount span{
+
+.content>.list .cart_amount .amount span {
 	font-weight: 900;
-	color: #ff5e5e;
+	color: #ff5e5e
 }

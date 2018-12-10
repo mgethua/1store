@@ -1,0 +1,476 @@
+body {
+	width: 100%
+}
+
+.concer {
+	width: 1200px;
+	margin: 0 auto
+}
+
+#top {
+	height: 30px;
+	border: 1px solid #e5e5e5;
+	background: #f4f4f4
+}
+
+.top-con {
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto
+}
+
+.top-con .left {
+	float: left;
+	height: 30px
+}
+
+.top-con .left li {
+	float: left;
+	box-sizing: border-box
+}
+
+.top-con .left li a {
+	float: left;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #333
+}
+
+.top-con .left li:nth-child(1) {
+	padding-left: 28px
+}
+
+.top-con .left .icon-ditudingwei {
+	display: inline-block;
+	float: left;
+	line-height: 30px;
+	text-align: center
+}
+
+.top-con .left li:nth-child(2) {
+	float: right
+}
+
+.top-con .left .icon-laba {
+	float: left;
+	line-height: 30px;
+	text-align: center
+}
+
+.top-con .right {
+	float: right;
+	height: 30px
+}
+
+.top-con .right li {
+	float: left;
+	height: 30px;
+	text-align: center;
+	line-height: 30px
+}
+
+.top-con .right li a {
+	font-size: 12px;
+	color: #333
+}
+
+.top-con .right li:nth-child(2) {
+	margin: 0 10px
+}
+
+.top-con .right li:nth-child(3) {
+	margin: 0 10px
+}
+
+.top-con li a:hover {
+	color: #ff4040
+}
+
+#header {
+	height: 180px
+}
+
+.header-con {
+	width: 1200px;
+	height: 180px;
+	margin: 0 auto
+}
+
+.header-con .ft {
+	width: 288px;
+	height: 144px;
+	float: left
+}
+
+.header-con img {
+	width: 144px;
+	height: 144px;
+	float: left
+}
+
+.header-con .rt {
+	width: 652px;
+	height: 144px;
+	float: right
+}
+
+.header-con .rt .top {
+	width: 652px;
+	height: 42px;
+	padding-top: 50px
+}
+
+.header-con .rt .search {
+	width: 515px;
+	height: 42px;
+	float: left;
+	background: #fcfcfc;
+	border: 1px solid #e2e2e2;
+	border-radius: 50px;
+	font-size: 24px;
+	padding-left: 20px;
+	box-sizing: border-box
+}
+
+.header-con .rt .search:hover {
+	border: 1px solid red
+}
+
+.header-con .rt .gouwuche {
+	width: 124px;
+	height: 42px;
+	float: right;
+	border: 1px solid #e2e2e2;
+	border-radius: 50px
+}
+
+.header-con .rt p {
+	width: 515px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box
+}
+
+.header-con .rt p a {
+	font-size: 12px;
+	color: #aaa
+}
+
+#nav {
+	height: 38px
+}
+
+.nav-con {
+	width: 1200px;
+	height: 38px;
+	margin: 0 auto;
+	box-sizing: border-box
+}
+
+.nav-con .box {
+	width: 750px;
+	height: 38px
+}
+
+.nav-con .box li {
+	float: left;
+	width: 64px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	line-height: center;
+	padding-right: 30px
+}
+
+.nav-con .box li:nth-child(1) {
+	width: 140px;
+	height: 38px;
+	color: #fff;
+	background: red
+}
+
+.nav-con li a {
+	font-size: 16px;
+	color: #333;
+	font-weight: 600px;
+	font-family: "微软雅黑"
+}
+
+.nav-con li a:hover {
+	color: #ff4040
+}
+
+ul {
+	list-style: none
+}
+
+.box1 {
+	display: inline-block;
+	padding: 20px;
+	float: left
+}
+
+.show-image {
+	position: relative;
+	width: 360px;
+	font-size: 0;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	text-align: center
+}
+
+.show-image img {
+	max-width: 100%;
+	max-height: 100%
+}
+
+.filter {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 150px;
+	height: 150px;
+	background: rgba(0,0,0,.6);
+	cursor: move;
+	display: none
+}
+
+.img-box {
+	padding: 10px
+}
+
+.img-box>li {
+	display: inline-block;
+	border: 1px solid transparent;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin-left: 10px
+}
+
+.img-box>li img {
+	max-width: 100%;
+	max-height: 100%
+}
+
+.img-box>li.active,.img-box>li:hover {
+	border: 1px solid #000
+}
+
+.show-big-image {
+	position: absolute;
+	left: 400px;
+	top: 20px;
+	width: 450px;
+	height: 450px;
+	overflow: hidden;
+	border: 1px solid #eee;
+	display: none
+}
+
+.show-big-image img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1080px
+}
+
+.substance {
+	display: inline-block;
+	padding-top: 20px;
+	float: left
+}
+
+.substance .details h1 {
+	font-size: 16px;
+	padding: 10px 0
+}
+
+.substance .price ul {
+	width: 570px;
+	height: 48px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	background: #fde5e0;
+	border: 1px solid #ffcbc4;
+	border-right: none;
+	border-left: none;
+	line-height: 46px
+}
+
+.substance .price ul .pricel {
+	font-size: 14px;
+	float: left;
+	color: #666
+}
+
+.substance .price ul .number {
+	float: left;
+	margin-left: 36px;
+	font-size: 20px;
+	color: #e60012
+}
+
+.substance .comment {
+	height: 30px;
+	border-bottom: 1px dashed #d9d9d9;
+	line-height: 30px;
+	background: #fff4f2;
+	padding-left: 76px
+}
+
+.substance .comment a {
+	color: #666
+}
+
+.substance .comment .front b {
+	color: #ff875a
+}
+
+.substance .comment .front i {
+	color: #ff875a
+}
+
+.substance .comment .behind span {
+	color: #ff875a
+}
+
+.substance .comment .behind {
+	color: #aaa
+}
+
+.substance .discount {
+	height: 50px;
+	width: 570px;
+	line-height: 50px
+}
+
+.substance .discount dl {
+	height: 50px;
+	width: 570px;
+	line-height: 50px
+}
+
+.substance .discount dt {
+	display: inline-block;
+	float: left;
+	width: 70px
+}
+
+.substance .discount dd {
+	display: inline-block;
+	width: 500px;
+	float: left
+}
+
+.substance .discount dd .range {
+	display: inline-block
+}
+
+.substance .discount dd .range b {
+	display: inline-block;
+	border: 1px solid #ffcbc4;
+	font-size: 12px;
+	padding: 0 10px;
+	line-height: 20px
+}
+
+.substance .discount dd .draw {
+	display: inline-block;
+	float: right
+}
+
+.substance .choose {
+	width: 570px;
+	height: 80px;
+	border-bottom: 1px dashed #d9d9d9;
+	border-top: 1px dashed #d9d9d9;
+	line-height: 80px
+}
+
+.substance .choose span {
+	display: inline-block;
+	border: 1px solid #ddd;
+	line-height: 30px;
+	padding: 0 10px
+}
+
+.substance .choose span:nth-child(1) {
+	margin-left: 10px
+}
+
+.substance .sendto {
+	display: inline-block;
+	padding-top: 15px
+}
+
+.substance .sendto a {
+	color: #333;
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #ddd
+}
+
+.substance .sendto a i {
+	color: #855959
+}
+
+.substance .sendto .car {
+	margin-top: 20px;
+	margin-left: 10px
+}
+
+.substance .sendto .car .count {
+	width: 45px;
+	height: 46px;
+	border: 1px solid #c8c7cc;
+	border-right: none;
+	font-weight: 900;
+	line-height: 46px;
+	vertical-align: middle;
+	text-align: center
+}
+
+.substance .sendto .car .add {
+	width: 22px;
+	display: block;
+	height: 25px;
+	border: 1px solid #c8c7cc;
+	font-size: 18px;
+	border-left: none;
+	outline: 0
+}
+
+.substance .sendto .car .compute {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px
+}
+
+.substance .sendto .car .reduce {
+	width: 22px;
+	height: 25px;
+	display: block;
+	font-size: 18px;
+	border: 1px solid #c8c7cc;
+	border-left: none;
+	border-top: none;
+	outline: 0
+}
+
+.substance .sendto .car .join {
+	width: 134px;
+	height: 44px;
+	vertical-align: middle;
+	background: #ff5c4d;
+	color: #f8f8f8;
+	outline: 0;
+	border: 1px solid #ff4141
+}
+
+.substance .sendto .car .join i {
+	margin-right: 5px
+}
