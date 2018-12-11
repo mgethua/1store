@@ -67,8 +67,8 @@ var glass = (function () {
             this.$showImage.onmousemove = function (ev) {
                 ev = ev || window.event;
                 // 计算小方块定点坐标
-                var x = ev.clientX - this.offsetLeft - _this.$filter.offsetWidth / 2;
-                var y = ev.clientY - this.offsetTop - _this.$filter.offsetHeight / 2;
+                var x = ev.pageX - this.offsetLeft - _this.$filter.offsetWidth / 2;
+                var y = ev.pageY - this.offsetTop - _this.$filter.offsetHeight / 2;
                 // 获取小方块移动的最大坐标
                 var maxL = this.clientWidth - _this.$filter.offsetWidth,
                     maxT = this.clientHeight - _this.$filter.offsetHeight;

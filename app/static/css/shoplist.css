@@ -311,7 +311,7 @@ ul {
 	float: left;
 	margin-left: 36px;
 	font-size: 20px;
-	color: #e60012
+	color: #e60012;
 }
 
 .substance .comment {
@@ -319,55 +319,55 @@ ul {
 	border-bottom: 1px dashed #d9d9d9;
 	line-height: 30px;
 	background: #fff4f2;
-	padding-left: 76px
+	padding-left: 76px;
 }
 
 .substance .comment a {
-	color: #666
+	color: #666;
 }
 
 .substance .comment .front b {
-	color: #ff875a
+	color: #ff875a;
 }
 
 .substance .comment .front i {
-	color: #ff875a
+	color: #ff875a;
 }
 
 .substance .comment .behind span {
-	color: #ff875a
+	color: #ff875a;
 }
 
 .substance .comment .behind {
-	color: #aaa
+	color: #aaa;
 }
 
 .substance .discount {
 	height: 50px;
 	width: 570px;
-	line-height: 50px
+	line-height: 50px;
 }
 
 .substance .discount dl {
 	height: 50px;
 	width: 570px;
-	line-height: 50px
+	line-height: 50px;
 }
 
 .substance .discount dt {
 	display: inline-block;
 	float: left;
-	width: 70px
+	width: 70px;
 }
 
 .substance .discount dd {
 	display: inline-block;
 	width: 500px;
-	float: left
+	float: left;
 }
 
 .substance .discount dd .range {
-	display: inline-block
+	display: inline-block;
 }
 
 .substance .discount dd .range b {
@@ -375,12 +375,13 @@ ul {
 	border: 1px solid #ffcbc4;
 	font-size: 12px;
 	padding: 0 10px;
-	line-height: 20px
+	line-height: 20px;
+	margin-right: 4px;
 }
 
 .substance .discount dd .draw {
 	display: inline-block;
-	float: right
+	float: right;
 }
 
 .substance .choose {
@@ -388,39 +389,40 @@ ul {
 	height: 80px;
 	border-bottom: 1px dashed #d9d9d9;
 	border-top: 1px dashed #d9d9d9;
-	line-height: 80px
+	line-height: 80px;
 }
 
 .substance .choose span {
 	display: inline-block;
 	border: 1px solid #ddd;
 	line-height: 30px;
-	padding: 0 10px
+	padding: 0 10px;
+	margin-right: 10px;
 }
 
 .substance .choose span:nth-child(1) {
-	margin-left: 10px
+	margin-left: 10px;
 }
 
 .substance .sendto {
 	display: inline-block;
-	padding-top: 15px
+	padding-top: 15px;
 }
 
 .substance .sendto a {
 	color: #333;
 	display: inline-block;
 	padding: 10px;
-	border: 1px solid #ddd
+	border: 1px solid #ddd;
 }
 
 .substance .sendto a i {
-	color: #855959
+	color: #855959;
 }
 
 .substance .sendto .car {
 	margin-top: 20px;
-	margin-left: 10px
+	margin-left: 10px;
 }
 
 .substance .sendto .car .count {
@@ -431,7 +433,7 @@ ul {
 	font-weight: 900;
 	line-height: 46px;
 	vertical-align: middle;
-	text-align: center
+	text-align: center;
 }
 
 .substance .sendto .car .add {
@@ -441,13 +443,13 @@ ul {
 	border: 1px solid #c8c7cc;
 	font-size: 18px;
 	border-left: none;
-	outline: 0
+	outline: 0;
 }
 
 .substance .sendto .car .compute {
 	display: inline-block;
 	vertical-align: middle;
-	margin-right: 20px
+	margin-right: 20px;
 }
 
 .substance .sendto .car .reduce {
@@ -458,7 +460,7 @@ ul {
 	border: 1px solid #c8c7cc;
 	border-left: none;
 	border-top: none;
-	outline: 0
+	outline: 0;
 }
 
 .substance .sendto .car .join {
@@ -468,9 +470,9 @@ ul {
 	background: #ff5c4d;
 	color: #f8f8f8;
 	outline: 0;
-	border: 1px solid #ff4141
+	border: 1px solid #ff4141;
 }
 
 .substance .sendto .car .join i {
-	margin-right: 5px
+	margin-right: 5px;
 }
