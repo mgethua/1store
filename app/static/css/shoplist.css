@@ -206,7 +206,9 @@ body {
 ul {
 	list-style: none
 }
-
+.all{
+	height: 100%;
+}
 .box1 {
 	display: inline-block;
 	padding: 20px;
@@ -286,6 +288,8 @@ ul {
 
 .substance .details h1 {
 	font-size: 16px;
+	width: 570px;
+	white-space: normal;
 	padding: 10px 0
 }
 

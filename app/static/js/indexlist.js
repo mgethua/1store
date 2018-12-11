@@ -15,7 +15,7 @@ var render=(function(){
                 var data=_this.data[index];
                 localStorage.clear();
                 localStorage.id = index;
-                window.location="shoplist.html";
+                window.location="goodsdetail.html";
             }
         },
         getData(){
