@@ -404,14 +404,91 @@
         "money" : "16.8",
         "choose" :["【苹果/安卓/Tcpe-C】 一拖三 红","【苹果/安卓/Tcpe-C】 一拖三 红","【苹果/安卓/Tcpe-C】 一拖三 红"]
 
+    },
+
+    {
+        "id" : "36",
+        "src" : "image/fdjimg/small103.jpg",
+        "describe" :"雅培（Abbott）铂优恩美力幼儿配方奶粉3段900克新老包装随机发货（爱尔兰原装进口，原雅培欧版亲体系列）",
+        "price" : "194",
+        "num" : "1",
+        "weight" : "1.08kg",
+        "money" : "194",
+        "choose" :["3段900克","3段900克*4","3段900克*6"]
+
+    },
+
+    {
+        "id" : "37",
+        "src" : "image/fdjimg/small106.jpg",
+        "describe" :"多美忆圣诞拉旗圣诞装饰品圣诞树套餐圣诞节装饰品彩旗吊旗门挂节日场景布置挂件4条装",
+        "price" : "39.9",
+        "num" : "1",
+        "weight" : "1.1.65kg",
+        "money" : "39.9",
+        "choose" :["圣诞快乐拉旗4条装","韩式拉旗4条装","卡通拉旗4条装"]
+
+    },
+
+
+    {
+        "id" : "38",
+        "src" : "image/fdjimg/small109.jpg",
+        "describe" :"先做朋友，后做销售",
+        "price" : "26.3",
+        "num" : "1",
+        "weight" : "224页",
+        "money" : "26.3",
+        "choose" :["1本装"]
+
+    },
+
+    {
+        "id" : "39",
+        "src" : "image/fdjimg/small113.jpg",
+        "describe" :"良品铺子 风味猪肉脯 自然片 肉脯肉干 休闲零食",
+        "price" : "18.9",
+        "num" : "1",
+        "weight" : "120.00g",
+        "money" : "18.9",
+        "choose" :["100g"]
+
+    },
+
+    {
+        "id" : "40",
+        "src" : "image/fdjimg/small116.jpg",
+        "describe" :"南极人（Nanjiren）袜子男士袜子10双运动舒适透气休闲商务男袜男士棉袜中筒袜 简约净色",
+        "price" : "39",
+        "num" : "1",
+        "weight" : "310.00g",
+        "money" : "39",
+        "choose" :["经典净色","活力休闲","英伦风格"]
+
+    },
+
+    {
+        "id" : "41",
+        "src" : "image/fdjimg/small119.jpg",
+        "describe" :"卡包女士牛皮多功能银行卡片包多卡位卡套女式真皮名片夹驾驶证套 粉红色",
+        "price" : "29.9",
+        "num" : "1",
+        "weight" : "200.00g",
+        "money" : "29.9",
+        "choose" :["玫红色","睿智黑","水晶粉"]
+
+    },
+
+    {
+        "id" : "42",
+        "src" : "image/fdjimg/small122.jpg",
+        "describe" :"小度智能音箱 百度AI音箱 WiFi/蓝牙音箱 百度资源 儿童模式 跨级音质表现（外接供电 无内置电源）",
+        "price" : "89",
+        "num" : "1",
+        "weight" : "0.57kg",
+        "money" : "89",
+        "choose" :["【入门爆款】小度音响","【进阶新品】Pro深空灰","【进阶新品】Pro深邃黑"]
+
     }
-
-
-
-
-
-
-
-
 
 ]
