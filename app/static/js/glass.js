@@ -6,7 +6,7 @@ var glass = (function () {
         init: function (x) {
             this.Multiple = x || 2;
             // 获取最大的盒子
-            this.$box = document.querySelector('.box');
+            this.$box = document.querySelector('.box1');
             // 获取展示图片的盒子
             this.$showImage = this.$box.querySelector('.show-image');
             // 获取放大图片的盒子

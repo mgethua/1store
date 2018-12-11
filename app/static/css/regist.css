@@ -1,178 +1,201 @@
-#main_wrapper{
+#main_wrapper {
 	width: 100%;
 	height: 533px;
 	border-bottom: 1px solid #f4f4f4;
-	box-shadow: 1px 1px 3px #CCCCCC;
+	box-shadow: 1px 1px 3px #ccc;
 	animation: run 20s linear infinite alternate;
-	position: relative;
+	position: relative
 }
-.mian form{
-	margin: 0 auto;
+
+.mian form {
+	margin: 0 auto
 }
-.mian form .form_son{
+
+.mian form .form_son {
 	width: 330px;
 	position: absolute;
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
-	margin:auto;	
+	margin: auto
 }
-.mian form .form_son h2{
+
+.mian form .form_son h2 {
 	text-align: center;
-	font-size:24px;
+	font-size: 24px;
 	font-weight: 900;
 	padding-top: 24px;
-	line-height: 56px;
+	line-height: 56px
 }
-.mian form .form_son input{
+
+.mian form .form_son input {
 	width: 328px;
 	margin: 0;
 	padding: 0;
 	margin-top: 10px;
-	border: 1px solid #cccccc;
+	border: 1px solid #ccc;
 	height: 50px;
 	border-radius: 4px;
 	box-sizing: border-box;
-	padding-left: 20px;
+	padding-left: 20px
 }
-.mian form .form_son .code{
-	width: 192px;
+
+.mian form .form_son .code {
+	width: 192px
 }
-.mian form .form_son .getcode{
-	outline: none;
+
+.mian form .form_son .getcode {
+	outline: 0;
 	display: block;
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
-	border-radius:4px ;
+	border-radius: 4px;
 	height: 50px;
 	width: 125px;
 	color: #fff;
 	background: #57565f;
 	display: inline-block;
-	margin-left: 6px;
+	margin-left: 6px
 }
-.mian form .form_son div{
+
+.mian form .form_son div {
 	box-sizing: border-box;
-	width: 700px;
+	width: 700px
 }
-.mian form .form_son div:nth-of-type(1) i{
+
+.mian form .form_son div:nth-of-type(1) i {
 	display: none;
 	max-width: 162px;
-	background: #cccccc;
+	background: #ccc;
 	box-sizing: border-box;
 	margin-left: 15px;
-	padding: 10px;
+	padding: 10px
 }
-.mian form .form_son div:nth-of-type(2) i{
+
+.mian form .form_son div:nth-of-type(2) i {
 	display: none;
 	max-width: 162px;
 	box-sizing: border-box;
-	background: #cccccc;
+	background: #ccc;
 	margin-left: 15px;
-	padding: 10px;
+	padding: 10px
 }
-.mian form .form_son div:nth-of-type(3) i{
+
+.mian form .form_son div:nth-of-type(3) i {
 	max-width: 162px;
 	display: none;
 	box-sizing: border-box;
-	background: #cccccc;
+	background: #ccc;
 	margin-left: 15px;
-	padding: 10px;
+	padding: 10px
 }
-.mian form .form_son div:nth-of-type(4) i{
-	display: none;
-	box-sizing: border-box;
-	max-width: 162px;
-	background: #cccccc;
-	margin-left: 15px;
-	padding: 10px;
-}
-.mian form .form_son div:nth-of-type(5) i{
+
+.mian form .form_son div:nth-of-type(4) i {
 	display: none;
 	box-sizing: border-box;
 	max-width: 162px;
-	background: #cccccc;
+	background: #ccc;
 	margin-left: 15px;
-	padding: 10px;
+	padding: 10px
 }
-.mian form .form_son div:nth-of-type(1) span{
+
+.mian form .form_son div:nth-of-type(5) i {
+	display: none;
+	box-sizing: border-box;
+	max-width: 162px;
+	background: #ccc;
+	margin-left: 15px;
+	padding: 10px
+}
+
+.mian form .form_son div:nth-of-type(1) span {
 	position: absolute;
 	font-size: 14px;
-	color: #666666;
+	color: #666;
 	top: 106px;
-	left: 20px;
+	left: 20px
 }
-.mian form .form_son div:nth-of-type(2) span{
+
+.mian form .form_son div:nth-of-type(2) span {
 	position: absolute;
-	color: #666666;
+	color: #666;
 	font-size: 14px;
 	top: 166px;
-	left: 20px;
+	left: 20px
 }
-.mian form .form_son div:nth-of-type(3) span{
+
+.mian form .form_son div:nth-of-type(3) span {
 	position: absolute;
 	font-size: 14px;
-	color: #666666;
+	color: #666;
 	top: 226px;
-	left: 20px;
+	left: 20px
 }
-.mian form .form_son div:nth-of-type(4) span{
+
+.mian form .form_son div:nth-of-type(4) span {
 	position: absolute;
 	font-size: 14px;
-	color: #666666;
+	color: #666;
 	top: 286px;
-	left: 20px;
+	left: 20px
 }
-.mian form .form_son div:nth-of-type(5) span{
+
+.mian form .form_son div:nth-of-type(5) span {
 	position: absolute;
 	font-size: 14px;
-	color: #666666;
+	color: #666;
 	top: 346px;
-	left: 20px;
+	left: 20px
 }
-.mian form .form_son .xieyi{
-	display:inline-block;
+
+.mian form .form_son .xieyi {
+	display: inline-block;
 	margin-top: 22px;
-	color: #666666;
-	padding-left: 11px;
+	color: #666;
+	padding-left: 11px
 }
-.mian form .form_son .submit{
+
+.mian form .form_son .submit {
 	width: 100%;
 	height: 52px;
 	margin-top: 18px;
-	outline: none;
+	outline: 0;
 	background: #ff3c3c;
 	border: 0;
 	border-radius: 4px;
 	text-align: center;
 	line-height: 52px;
 	font-size: 16px;
-	color: #fff;
-}
-.mian form .form_son .submit:hover{
-	background: #d72226;
+	color: #fff
 }
 
-@keyframes run{
-	0%{
-		background: url(../image/r_icon1.png) no-repeat #fcfcfc;
-	}
-	25%{
-		background: url(../image/r_icon2.png) no-repeat #fcfcfc;
-	}
-	50%{
-		background: url(../image/r_icon3.png) no-repeat #fcfcfc;
-	}
-	75%{
-		background: url(../image/r_icon4.png) no-repeat #fcfcfc;
-	}
-	100%{
-		background: url(../image/r_icon5.png) no-repeat #fcfcfc;
-	}
-}
-.error{
-	background: #fff4d7;
+.mian form .form_son .submit:hover {
+	background: #d72226
 }
 
+@keyframes run {
+	0% {
+		background: url(../image/r_icon1.png) no-repeat #fcfcfc
+	}
+
+	25% {
+		background: url(../image/r_icon2.png) no-repeat #fcfcfc
+	}
+
+	50% {
+		background: url(../image/r_icon3.png) no-repeat #fcfcfc
+	}
+
+	75% {
+		background: url(../image/r_icon4.png) no-repeat #fcfcfc
+	}
+
+	100% {
+		background: url(../image/r_icon5.png) no-repeat #fcfcfc
+	}
+}
+
+.error {
+	background: #fff4d7
+}

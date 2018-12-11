@@ -1,86 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>注册</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="css/regist.css"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>注册</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/regist.css">
 </head>
 <body>
-    <section id="header_wrapper">
-        <header class="header center">
-            <section class="logo">
-                <h1>
-                    <a href="#" title="1号店">1号店，欢迎您</a>
-                </h1>
-            </section>
-            <section class="login">
-            	<span class="login_in">您好，欢迎光临1号店  <a href="login.html">请登录</a></span>
-            	<section class="help">
-            		<div class="help_son">
-            			<a href="#" class="first_help"><i class="help_left"></i>帮助中心<i class="help_right"></i></a>
-            			<ul class="help_list">
-	            			<li><a href="#">包裹跟踪</a></li>
-	            			<li><a href="#">常见问题</a></li>
-	            			<li><a href="#">在线退换货</a></li>
-	            			<li><a href="#">在线投诉</a></li>
-            			</ul>
-            		</div>
-            	</section>
-            </section>
-        </header>
-    </section>
-    <section id="main_wrapper">
-    	<section class="mian center">
-    		<form action="php/regist.php" method="POST" autocomplete="off" onsubmit="return false">
-    			<div class="form_son">
-	    			<h2>1号店注册</h2>
-	    			<div>
-						<input type="text" name="username" class="username"/><i>请输入6-16位数字、英文和"_"组合</i><br />
-		    			<span>用户名</span>
-	    			</div>
-	    			<div>
-	    				<input type="text" name="phone" class="phone"/><i>请填写正确的手机号，以便接受通知，找回密码等</i><br />
-	    				<span>手机号</span>
-	    			</div>
-	    			<div>
-	    				<input type="text" name="code" class="code"/>
-	    				<button type="button" disabled class="getcode">获取验证码<b></b></button><i></i><br />
-	    				<span>短信验证码</span>
-	    			</div>
-	    			<div>
-	    				<input type="password" name="password" class="pasword"/><i>6-20个大小写英文字母、下划线、数字的组合</i><br />
-	    				<span>设置密码</span>
-	    			</div>
-	    			<div>
-	    				<input type="password" name="passwordset" class="paswordset"/><i>请再次输入密码</i><br />
-	    				<span>确认密码</span>
-	    			</div>
-	    			<b class="xieyi">点击注册，表示您同意1号店<a href="#">《服务协议及隐私声明》</a></b>
-	    			<button type="submit" class="submit" name="submit">同意协议并注册</button>
-    			</div>
-    		</form>
-    	</section>    	
-    </section>
-    <footer id="footer_wrapper">
-    	<section class="footer center">
-    		<div class="footer_son">
-	    		<a href="#">沪ICP备16050468号</a> |
-	    		<a href="#">沪B2-20170039</a> |
-	    		<a href="#">营业执照</a>
-	    		<p>Copyright © 1号店网上超市 2007-2018，All Rights Reserved</p>
-    		</div>
-    	</section>
-	</footer>
-	<script src="js/form_check.js"></script>
-	<script src="js/common.js"></script>
-	<script src="js/move1.1.0.js"></script>
-	<script src="js/ajax.js"></script>
-	<script>
-		register.init("form")
-	</script>
+<section id="header_wrapper"><header class="header center"><section class="logo">
+<h1><a href="#" title="1号店">1号店，欢迎您</a></h1>
+</section><section class="login"><span class="login_in">您好，欢迎光临1号店 <a href="login.html">请登录</a></span><section class="help">
+<div class="help_son">
+	<a href="#" class="first_help"><i class="help_left"></i>帮助中心<i class="help_right"></i></a>
+	<ul class="help_list">
+		<li><a href="#">包裹跟踪</a></li>
+		<li><a href="#">常见问题</a></li>
+		<li><a href="#">在线退换货</a></li>
+		<li><a href="#">在线投诉</a></li>
+	</ul>
+</div>
+</section></section></header></section><section id="main_wrapper"><section class="mian center">
+<form action="http://10.36.141.117:7893/1store/server/php/check.php" method="POST" autocomplete="off" onsubmit="return false">
+	<div class="form_son">
+		<h2>1号店注册</h2>
+		<div>
+			<input type="text" name="username" class="username"><i>请输入6-16位数字、英文和"_"组合</i><br>
+			<span>用户名</span>
+		</div>
+		<div>
+			<input type="text" name="phone" class="phone"><i>请填写正确的手机号，以便接受通知，找回密码等</i><br>
+			<span>手机号</span>
+		</div>
+		<div>
+			<input type="text" name="code" class="code"><button type="button" disabled="disabled" class="getcode">获取验证码<b></b></button><i></i><br>
+			<span>短信验证码</span>
+		</div>
+		<div>
+			<input type="password" name="password" class="pasword"><i>6-20个大小写英文字母、下划线、数字的组合</i><br>
+			<span>设置密码</span>
+		</div>
+		<div>
+			<input type="password" name="passwordset" class="paswordset"><i>请再次输入密码</i><br>
+			<span>确认密码</span>
+		</div>
+		<b class="xieyi">点击注册，表示您同意1号店<a href="#">《服务协议及隐私声明》</a></b><button type="submit" class="submit" name="submit">同意协议并注册</button>
+	</div>
+</form>
+</section></section><footer id="footer_wrapper"><section class="footer center">
+<div class="footer_son">
+	<a href="#">沪ICP备16050468号</a> | <a href="#">沪B2-20170039</a> | <a href="#">营业执照</a>
+	<p>
+		Copyright © 1号店网上超市 2007-2018，All Rights Reserved
+	</p>
+</div>
+</section></footer>
+<script src="js/form_check.js"></script>
+<script src="js/common.js"></script>
+<script src="js/move1.1.0.js"></script>
+<script src="js/ajax.js"></script>
+<script>register.init("form")</script>
 </body>
 </html>

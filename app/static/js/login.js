@@ -13,7 +13,7 @@ var login = (function(){
         event(){
             var _this=this;
             _this.$btn.onclick=function(){
-                sendAjax('../../server/php/login.php',{
+                sendAjax('http://10.36.141.117:7893/1store/server/php/check.php',{
                     method:'post',
                     data:{
                         username:_this.$user.value,

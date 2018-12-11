@@ -1,5 +1,5 @@
 <?php
-    header("Content-type: text/html; charset=UTF-8");
+    header("Access-Control-Allow-Origin:*");
     $username = $_POST["username"];
     $phone = $_POST["phone"];
     $password = $_POST["password"];
