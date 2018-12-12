@@ -11,7 +11,7 @@ body {
 }
 
 .top-con {
-	width: 1200px;
+	width: 1070px;
 	height: 30px;
 	margin: 0 auto
 }
@@ -248,3 +248,1372 @@ body {
 	background-color: #333;
 	color: #fff
 }
+
+
+/* case */
+#case{
+	height: 2825px;
+	background: #f5f5f5;
+}
+.case-con{
+	width: 1070px;
+	height: 2825px;
+	margin: 0 auto;
+}
+.case-con .app{
+	height: 135px;
+}
+.case-con .app a{
+	display: block;
+	height: 135px;
+	padding-top: 25px;
+}
+
+.case-con .category{
+	height:2690px ;
+}
+.category .chaojidanpin{
+	width: 1070px;
+	height: 444px;
+	margin-top: 20px;
+}
+.category .chaojidanpin .supersingle{
+	position: relative;
+    width: 1070px;
+	height: 370px;
+	box-sizing: border-box;
+    background: url(../image/sytp/super_single_bg.png) no-repeat;
+}
+.category .chaojidanpin p{
+	height: 1px;
+}
+.category .chaojidanpin  ul{
+	width: 1050px;
+    height: 432px;
+	/* position: absolute; */
+	margin: 0 auto;
+	margin-top: 10px;
+	background: white;
+	
+}
+
+.category .chaojidanpin  ul li{
+	width: 210px;
+	height: 216px;
+	float: left;
+	
+}
+.category .chaojidanpin  ul li .top{
+	width: 210px;
+	height: 135px;
+	position: relative;
+}
+.category .chaojidanpin  ul li .top img{
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.category .chaojidanpin  ul li .bottom{
+	width: 150px;
+	height: 81px;
+	margin: 0 auto;
+}
+.category .chaojidanpin  ul li .bottom P{
+	display: block;
+	width: 150px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	color: #333;
+}
+.category .chaojidanpin  ul li .bottom span{
+   display: block;
+   width: 80px;
+   height: 19px;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 12px;
+   color: #e50113;
+  font-weight: 900;
+   
+}
+
+/* 超级品牌 */
+.category .chaojipinpai{
+   width: 1070px;
+   height: 362px;
+	background: pink;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* 品质进口 */
+.category .pinzhijinkou{
+	width: 1070px;
+	height: 501px;
+	 margin-top: 20px;
+	 background: #fff;
+ }
+ .category .pinzhijinkou .tp{
+	width: 899px;
+    height: 421px;
+	float: left;
+ }
+ .category .pinzhijinkou .tp a{
+	 display: block;
+	 height: 67px;
+ }
+ .category .pinzhijinkou .tp a .jk{
+	color: #B77347;
+	height: 35px;
+	margin-top: 17px;
+	margin-left: 20px;
+	font-size: 26px;
+	display: inline-block;
+    cursor: pointer;
+    max-width: 190px;
+    overflow: hidden;
+ }
+ .category .pinzhijinkou .tp a .wm{
+	color: rgba(183,115,71,0.7);
+	margin-left: 8px;
+	font-size: 16px;
+	margin-top: 27px;
+    height: 21px;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 208px;
+    overflow: hidden;
+    position: relative;
+    top: -3px;
+ }
+
+ .category .pinzhijinkou .tp .tp_con{
+	width: 900px;
+    height: 334px;
+    position: relative;
+    padding-left: 20px;
+ }
+ .category .pinzhijinkou .tp .tp_con img{
+	position: relative;
+    width: 189px;
+    height: 334px;
+	float: left;
+	border: 0 none;
+    vertical-align: top;
+ }
+
+ .category .pinzhijinkou .tp .tp_con .left{
+	font-size: 14px;
+    color: #fff;
+    position: absolute;
+    width: 176px;
+    height: 90px;
+    margin-left: 14px;
+    top: 16px;
+}
+.category .pinzhijinkou .tp .tp_con .left a{
+	background: rgba(255,255,255,0.1) !important;
+    border: 1px solid rgba(255,255,255,0.61) !important;
+    width: 74px;
+	height: 23px;
+	text-align: center;
+    line-height: 23px;
+    float: left;
+    margin-right: 9px;
+    margin-bottom: 9px; 
+    cursor: pointer;
+    color: #fff;
+	overflow: hidden;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.category .pinzhijinkou .tp .tp_con .right{
+	width: 680px;
+    height: 334px;
+	float:left;
+	
+}
+
+.category .pinzhijinkou .tp .tp_con .right{
+	width: 680px;
+    height: 334px;
+    float: left;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .one{
+	width: 335px;
+    height: 167px;
+    position: relative;
+    float: left;
+	background-color: #faf7f6;
+	background-image: linear-gradient(-135deg,#fafaf9 0%,#faf7f6 100%);
+	cursor: pointer;
+	color: #333;
+}
+.tp_con .right .one .p1{
+	margin-top: 40px;
+    color: #793a11;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 150px;
+	margin-left: 30px;
+    font-size: 14px;
+}
+.tp_con .right .one .p2{
+	color: #b77347;
+    margin-top: 5px;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 150px;
+	margin-left: 30px;
+    font-size: 14px;
+
+}
+
+.tp_con .right .one .jr{
+	border: 1px solid rgba(192,132,92,0.5);
+    width: 78px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: 15px;
+    color: #c0845c;
+    cursor: pointer;
+	overflow: hidden;
+	margin-left: 30px;
+    font-size: 14px;
+}
+.category .pinzhijinkou .tp .tp_con .right .one .xxls{
+	position: absolute;
+	width: 110px;
+	height: 110px;
+    right: 30px;
+	bottom: 27px;
+	cursor: pointer;    
+	border: 0 none;
+	vertical-align: top;
+	transition: transform .4s ease,-webkit-transform .4s ease,-moz-transform .4s ease,-o-transform .4s ease;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .two{
+	border-right: 1px solid #f6f6f6;
+	float: left;
+    position: relative;
+    width: 167px;
+    height: 167px;
+    cursor: pointer;
+}
+
+.tp_con .right .two .p1{
+	margin-left: 15px;
+	font-size: 14px;
+	overflow: hidden;
+    height: 21px;
+	width: 102px;
+	color: #333 !important;
+	margin-top: 15px !important;
+}
+.tp_con .right .two .p2{
+	color: #999;
+	margin-left: 15px;
+	font-size: 14px;
+	margin-top: -1px;
+    overflow: hidden;
+    height: 21px;
+    width: 102px;
+	
+}
+.category .pinzhijinkou .tp .tp_con .right .two .jkbg{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .three{
+	float: left;
+    position: relative;
+    width: 167px;
+    height: 167px;
+    cursor: pointer;
+}
+
+.tp_con .right .three .p1{
+	margin-left: 15px;
+	font-size: 14px;
+	overflow: hidden;
+    height: 21px;
+	width: 102px;
+	color: #333 !important;
+	margin-top: 15px !important;
+}
+.tp_con .right .three .p2{
+	color: #999;
+	margin-left: 15px;
+	font-size: 14px;
+	margin-top: -1px;
+    overflow: hidden;
+    height: 21px;
+    width: 102px;
+}
+.category .pinzhijinkou .tp .tp_con .right .three .jknn{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+ .category .pinzhijinkou .md{
+	width: 170px;
+    height: 421px;
+    float: left;
+    border-left: 1px solid #f6f6f6;
+    position: relative;
+ }
+
+ .category .pinzhijinkou .md .phb{
+	margin-left: 81px;
+    position: absolute;
+    width: 71px;
+	background: 0;
+ }
+
+ .category .pinzhijinkou .md .p1{
+	 display: block;
+	font-size: 16px;
+    color: #333;
+	margin-top: 20px;
+	margin-left: 20.5px;
+	width: 130px;
+    height: 21px;
+    overflow: hidden;
+    white-space: nowrap;
+ }
+
+ .category .pinzhijinkou .md .p2{
+	 display: block;
+	margin-left: 20.5px;
+    font-size: 14px;
+    color: #999;
+    margin-top: 7px;
+    width: 130px;
+    height: 21px;
+    overflow: hidden;
+    white-space: nowrap
+ }
+
+ .category .pinzhijinkou .md ul{
+	overflow: hidden;
+    position: absolute;
+    height: 317px;
+    width: 120px;
+    left: 28px;
+	bottom: 15px;
+	
+ }
+ .category .pinzhijinkou .md ul li{
+	margin-top: 13px;
+	width: 90px;
+    height: 90px;
+    position: relative;
+	background-color: #fff;
+	box-shadow: 0 2px 20px 0 rgba(0,0,0,0.07);
+    margin-bottom: 11px;
+	cursor: pointer;
+	margin:12px auto;
+ }
+ 
+ .category .pinzhijinkou .md ul li img{
+	margin-top: 15px;
+    margin-left: 15px;
+    width: 60px;
+	height: 60px;
+	
+ }
+
+ .category .pinzhijinkou .md ul li a{
+	 display: block;
+	 background: url(../image/sytp/top1.png) no-repeat;
+	color:#fffbf5;
+	font-size:12px;
+	font-weight: 1000;
+
+ }
+
+
+
+ .category .pinzhijinkou .bt{
+	width: 100%;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+	cursor: pointer;
+	border-top: 1px solid #f6f6f6;
+	
+ }
+ 
+ .category .pinzhijinkou .bt ul{
+	width: 100%;
+    height: 80px;
+ }
+ 
+ .category .pinzhijinkou .bt ul li{
+	width: 152px;
+    height: 80px;
+    background-color: #fff;
+    float: left;
+    position: relative;
+ }
+ .category .pinzhijinkou .bt ul li a{
+	display: block;
+    width: 152px;
+    height: 80px;
+ }
+ .category .pinzhijinkou .bt ul li a img{
+	width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-left: -40px;
+    left: 50%;
+ }
+
+
+
+
+
+ /* 甄选新鲜 */
+ .category .pinzhijinkou{
+	width: 1070px;
+	height: 421px;
+    margin-top: 20px;
+	background: #fff;
+ }
+ .category .pinzhijinkou .tp{
+	width: 899px;
+    height: 421px;
+	float: left;
+ }
+ .category .pinzhijinkou .tp a{
+	 display: block;
+	 height: 67px;
+ }
+ .category .pinzhijinkou .tp a .jk{
+	color: #B77347;
+	height: 35px;
+	margin-top: 17px;
+	margin-left: 20px;
+	font-size: 26px;
+	display: inline-block;
+    cursor: pointer;
+    max-width: 190px;
+    overflow: hidden;
+ }
+ .category .pinzhijinkou .tp a .wm{
+	color: rgba(183,115,71,0.7);
+	margin-left: 8px;
+	font-size: 16px;
+	margin-top: 27px;
+    height: 21px;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 208px;
+    overflow: hidden;
+    position: relative;
+    top: -3px;
+ }
+
+ .category .pinzhijinkou .tp .tp_con{
+	width: 900px;
+    height: 334px;
+    position: relative;
+    padding-left: 20px;
+ }
+ .category .pinzhijinkou .tp .tp_con img{
+	position: relative;
+    width: 189px;
+    height: 334px;
+	float: left;
+	border: 0 none;
+    vertical-align: top;
+ }
+
+ .category .pinzhijinkou .tp .tp_con .left{
+	font-size: 14px;
+    color: #fff;
+    position: absolute;
+    width: 176px;
+    height: 90px;
+    margin-left: 14px;
+    top: 16px;
+}
+.category .pinzhijinkou .tp .tp_con .left a{
+	background: rgba(255,255,255,0.1) !important;
+    border: 1px solid rgba(255,255,255,0.61) !important;
+    width: 74px;
+	height: 23px;
+	text-align: center;
+    line-height: 23px;
+    float: left;
+    margin-right: 9px;
+    margin-bottom: 9px; 
+    cursor: pointer;
+    color: #fff;
+	overflow: hidden;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.category .pinzhijinkou .tp .tp_con .right{
+	width: 680px;
+    height: 334px;
+	float:left;
+	
+}
+
+.category .pinzhijinkou .tp .tp_con .right{
+	width: 680px;
+    height: 334px;
+    float: left;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .one{
+	width: 335px;
+    height: 167px;
+    position: relative;
+    float: left;
+	background-color: #faf7f6;
+	background-image: linear-gradient(-135deg,#fafaf9 0%,#faf7f6 100%);
+	cursor: pointer;
+	color: #333;
+}
+.tp_con .right .one .p1{
+	margin-top: 40px;
+    color: #793a11;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 150px;
+	margin-left: 30px;
+    font-size: 14px;
+}
+.tp_con .right .one .p2{
+	color: #b77347;
+    margin-top: 5px;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 150px;
+	margin-left: 30px;
+    font-size: 14px;
+
+}
+
+.tp_con .right .one .jr{
+	border: 1px solid rgba(192,132,92,0.5);
+    width: 78px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: 15px;
+    color: #c0845c;
+    cursor: pointer;
+	overflow: hidden;
+	margin-left: 30px;
+    font-size: 14px;
+}
+.category .pinzhijinkou .tp .tp_con .right .one .xxls{
+	position: absolute;
+	width: 110px;
+	height: 110px;
+    right: 30px;
+	bottom: 27px;
+	cursor: pointer;    
+	border: 0 none;
+	vertical-align: top;
+	transition: transform .4s ease,-webkit-transform .4s ease,-moz-transform .4s ease,-o-transform .4s ease;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .two{
+	border-right: 1px solid #f6f6f6;
+	float: left;
+    position: relative;
+    width: 167px;
+    height: 167px;
+    cursor: pointer;
+}
+
+.tp_con .right .two .p1{
+	margin-left: 15px;
+	font-size: 14px;
+	overflow: hidden;
+    height: 21px;
+	width: 102px;
+	color: #333 !important;
+	margin-top: 15px !important;
+}
+.tp_con .right .two .p2{
+	color: #999;
+	margin-left: 15px;
+	font-size: 14px;
+	margin-top: -1px;
+    overflow: hidden;
+    height: 21px;
+    width: 102px;
+	
+}
+.category .pinzhijinkou .tp .tp_con .right .two .jkbg{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .three{
+	float: left;
+    position: relative;
+    width: 167px;
+    height: 167px;
+    cursor: pointer;
+}
+
+.tp_con .right .three .p1{
+	margin-left: 15px;
+	font-size: 14px;
+	overflow: hidden;
+    height: 21px;
+	width: 102px;
+	color: #333 !important;
+	margin-top: 15px !important;
+}
+.tp_con .right .three .p2{
+	color: #999;
+	margin-left: 15px;
+	font-size: 14px;
+	margin-top: -1px;
+    overflow: hidden;
+    height: 21px;
+    width: 102px;
+}
+.category .pinzhijinkou .tp .tp_con .right .three .jknn{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+ .category .pinzhijinkou .md{
+	width: 170px;
+    height: 421px;
+    float: left;
+    border-left: 1px solid #f6f6f6;
+    position: relative;
+ }
+
+ .category .pinzhijinkou .md .phb{
+	margin-left: 81px;
+    position: absolute;
+    width: 71px;
+	background: 0;
+ }
+
+ .category .pinzhijinkou .md .p1{
+	 display: block;
+	font-size: 16px;
+    color: #333;
+	margin-top: 20px;
+	margin-left: 20.5px;
+	width: 130px;
+    height: 21px;
+    overflow: hidden;
+    white-space: nowrap;
+ }
+
+ .category .pinzhijinkou .md .p2{
+	 display: block;
+	margin-left: 20.5px;
+    font-size: 14px;
+    color: #999;
+    margin-top: 7px;
+    width: 130px;
+    height: 21px;
+    overflow: hidden;
+    white-space: nowrap
+ }
+
+ .category .pinzhijinkou .md ul{
+	overflow: hidden;
+    position: absolute;
+    height: 317px;
+    width: 120px;
+    left: 28px;
+	bottom: 15px;
+	
+ }
+ .category .pinzhijinkou .md ul li{
+	margin-top: 13px;
+	width: 90px;
+    height: 90px;
+    position: relative;
+	background-color: #fff;
+	box-shadow: 0 2px 20px 0 rgba(0,0,0,0.07);
+    margin-bottom: 11px;
+	cursor: pointer;
+	margin:12px auto;
+ }
+ 
+ .category .pinzhijinkou .md ul li img{
+	margin-top: 15px;
+    margin-left: 15px;
+    width: 60px;
+	height: 60px;
+	
+ }
+
+ .category .pinzhijinkou .md ul li a{
+	 display: block;
+	 background: url(../image/sytp/top1.png) no-repeat;
+	color:#fffbf5;
+	font-size:12px;
+	font-weight: 1000;
+
+ }
+
+
+
+ /* 甄选新鲜 */
+ .category .pinzhijinkou{
+	width: 1070px;
+	height: 421px;
+	 margin-top: 20px;
+	 background: #fff;
+ }
+ .category .pinzhijinkou .tp{
+	width: 899px;
+    height: 421px;
+	float: left;
+ }
+ .category .pinzhijinkou .tp a{
+	 display: block;
+	 height: 67px;
+ }
+ .category .pinzhijinkou .tp a .jk{
+	color: #B77347;
+	height: 35px;
+	margin-top: 17px;
+	margin-left: 20px;
+	font-size: 26px;
+	display: inline-block;
+    cursor: pointer;
+    max-width: 190px;
+    overflow: hidden;
+ }
+ .category .pinzhijinkou .tp a .wm{
+	color: rgba(183,115,71,0.7);
+	margin-left: 8px;
+	font-size: 16px;
+	margin-top: 27px;
+    height: 21px;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 208px;
+    overflow: hidden;
+    position: relative;
+    top: -3px;
+ }
+
+ .category .pinzhijinkou .tp .tp_con{
+	width: 900px;
+    height: 334px;
+    position: relative;
+    padding-left: 20px;
+ }
+ .category .pinzhijinkou .tp .tp_con img{
+	position: relative;
+    width: 189px;
+    height: 334px;
+	float: left;
+	border: 0 none;
+    vertical-align: top;
+ }
+
+ .category .pinzhijinkou .tp .tp_con .left{
+	font-size: 14px;
+    color: #fff;
+    position: absolute;
+    width: 176px;
+    height: 90px;
+    margin-left: 14px;
+    top: 16px;
+}
+.category .pinzhijinkou .tp .tp_con .left a{
+	background: rgba(255,255,255,0.1) !important;
+    border: 1px solid rgba(255,255,255,0.61) !important;
+    width: 74px;
+	height: 23px;
+	text-align: center;
+    line-height: 23px;
+    float: left;
+    margin-right: 9px;
+    margin-bottom: 9px; 
+    cursor: pointer;
+    color: #fff;
+	overflow: hidden;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.category .pinzhijinkou .tp .tp_con .right{
+	width: 680px;
+    height: 334px;
+	float:left;
+	
+}
+
+.category .pinzhijinkou .tp .tp_con .right{
+	width: 680px;
+    height: 334px;
+    float: left;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .one{
+	width: 335px;
+    height: 167px;
+    position: relative;
+    float: left;
+	background-color: #faf7f6;
+	background-image: linear-gradient(-135deg,#fafaf9 0%,#faf7f6 100%);
+	cursor: pointer;
+	color: #333;
+}
+.tp_con .right .one .p1{
+	margin-top: 40px;
+    color: #793a11;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 150px;
+	margin-left: 30px;
+    font-size: 14px;
+}
+.tp_con .right .one .p2{
+	color: #b77347;
+    margin-top: 5px;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 150px;
+	margin-left: 30px;
+    font-size: 14px;
+
+}
+
+.tp_con .right .one .jr{
+	border: 1px solid rgba(192,132,92,0.5);
+    width: 78px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: 15px;
+    color: #c0845c;
+    cursor: pointer;
+	overflow: hidden;
+	margin-left: 30px;
+    font-size: 14px;
+}
+.category .pinzhijinkou .tp .tp_con .right .one .xxls{
+	position: absolute;
+	width: 110px;
+	height: 110px;
+    right: 30px;
+	bottom: 27px;
+	cursor: pointer;    
+	border: 0 none;
+	vertical-align: top;
+	transition: transform .4s ease,-webkit-transform .4s ease,-moz-transform .4s ease,-o-transform .4s ease;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .two{
+	border-right: 1px solid #f6f6f6;
+	float: left;
+    position: relative;
+    width: 167px;
+    height: 167px;
+    cursor: pointer;
+}
+
+.tp_con .right .two .p1{
+	margin-left: 15px;
+	font-size: 14px;
+	overflow: hidden;
+    height: 21px;
+	width: 102px;
+	color: #333 !important;
+	margin-top: 15px !important;
+}
+.tp_con .right .two .p2{
+	color: #999;
+	margin-left: 15px;
+	font-size: 14px;
+	margin-top: -1px;
+    overflow: hidden;
+    height: 21px;
+    width: 102px;
+	
+}
+.category .pinzhijinkou .tp .tp_con .right .two .jkbg{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .three{
+	float: left;
+    position: relative;
+    width: 167px;
+    height: 167px;
+    cursor: pointer;
+}
+
+.tp_con .right .three .p1{
+	margin-left: 15px;
+	font-size: 14px;
+	overflow: hidden;
+    height: 21px;
+	width: 102px;
+	color: #333 !important;
+	margin-top: 15px !important;
+}
+.tp_con .right .three .p2{
+	color: #999;
+	margin-left: 15px;
+	font-size: 14px;
+	margin-top: -1px;
+    overflow: hidden;
+    height: 21px;
+    width: 102px;
+}
+.category .pinzhijinkou .tp .tp_con .right .three .jknn{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+ .category .pinzhijinkou .md{
+	width: 170px;
+    height: 421px;
+    float: left;
+    border-left: 1px solid #f6f6f6;
+    position: relative;
+ }
+
+ .category .pinzhijinkou .md .phb{
+	margin-left: 81px;
+    position: absolute;
+    width: 71px;
+	background: 0;
+ }
+
+ .category .pinzhijinkou .md .p1{
+	 display: block;
+	font-size: 16px;
+    color: #333;
+	margin-top: 20px;
+	margin-left: 20.5px;
+	width: 130px;
+    height: 21px;
+    overflow: hidden;
+    white-space: nowrap;
+ }
+
+ .category .pinzhijinkou .md .p2{
+	 display: block;
+	margin-left: 20.5px;
+    font-size: 14px;
+    color: #999;
+    margin-top: 7px;
+    width: 130px;
+    height: 21px;
+    overflow: hidden;
+    white-space: nowrap
+ }
+
+ .category .pinzhijinkou .md ul{
+	overflow: hidden;
+    position: absolute;
+    height: 317px;
+    width: 120px;
+    left: 28px;
+	bottom: 15px;
+	
+ }
+ .category .pinzhijinkou .md ul li{
+	margin-top: 13px;
+	width: 90px;
+    height: 90px;
+    position: relative;
+	background-color: #fff;
+	box-shadow: 0 2px 20px 0 rgba(0,0,0,0.07);
+    margin-bottom: 11px;
+	cursor: pointer;
+	margin:12px auto;
+ }
+ 
+ .category .pinzhijinkou .md ul li img{
+	margin-top: 15px;
+    margin-left: 15px;
+    width: 60px;
+	height: 60px;
+	
+ }
+
+ .category .pinzhijinkou .md ul li a{
+	 display: block;
+	 background: url(../image/sytp/top1.png) no-repeat;
+	color:#fffbf5;
+	font-size:12px;
+	font-weight: 1000;
+
+ }
+
+/* 甄选新鲜 */
+.category .pinzhijinkou{
+	width: 1070px;
+	height: 421px;
+	 margin-top: 20px;
+	 background: #fff;
+ }
+ .category .pinzhijinkou .tp{
+	width: 899px;
+    height: 421px;
+	float: left;
+ }
+ .category .pinzhijinkou .tp a{
+	 display: block;
+	 height: 67px;
+ }
+ .category .pinzhijinkou .tp a .jk{
+	color: #B77347;
+	height: 35px;
+	margin-top: 17px;
+	margin-left: 20px;
+	font-size: 26px;
+	display: inline-block;
+    cursor: pointer;
+    max-width: 190px;
+    overflow: hidden;
+ }
+ .category .pinzhijinkou .tp a .wm{
+	color: rgba(183,115,71,0.7);
+	margin-left: 8px;
+	font-size: 16px;
+	margin-top: 27px;
+    height: 21px;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 208px;
+    overflow: hidden;
+    position: relative;
+    top: -3px;
+ }
+
+ .category .pinzhijinkou .tp .tp_con{
+	width: 900px;
+    height: 334px;
+    position: relative;
+    padding-left: 20px;
+ }
+ .category .pinzhijinkou .tp .tp_con img{
+	position: relative;
+    width: 189px;
+    height: 334px;
+	float: left;
+	border: 0 none;
+    vertical-align: top;
+ }
+
+ .category .pinzhijinkou .tp .tp_con .left{
+	font-size: 14px;
+    color: #fff;
+    position: absolute;
+    width: 176px;
+    height: 90px;
+    margin-left: 14px;
+    top: 16px;
+}
+.category .pinzhijinkou .tp .tp_con .left a{
+	background: rgba(255,255,255,0.1) !important;
+    border: 1px solid rgba(255,255,255,0.61) !important;
+    width: 74px;
+	height: 23px;
+	text-align: center;
+    line-height: 23px;
+    float: left;
+    margin-right: 9px;
+    margin-bottom: 9px; 
+    cursor: pointer;
+    color: #fff;
+	overflow: hidden;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.category .pinzhijinkou .tp .tp_con .right{
+	width: 680px;
+    height: 334px;
+	float:left;
+	
+}
+
+.category .pinzhijinkou .tp .tp_con .right{
+	width: 680px;
+    height: 334px;
+    float: left;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .one{
+	width: 335px;
+    height: 167px;
+    position: relative;
+    float: left;
+	background-color: #faf7f6;
+	background-image: linear-gradient(-135deg,#fafaf9 0%,#faf7f6 100%);
+	cursor: pointer;
+	color: #333;
+}
+.tp_con .right .one .p1{
+	margin-top: 40px;
+    color: #793a11;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 150px;
+	margin-left: 30px;
+    font-size: 14px;
+}
+.tp_con .right .one .p2{
+	color: #b77347;
+    margin-top: 5px;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 150px;
+	margin-left: 30px;
+    font-size: 14px;
+
+}
+
+.tp_con .right .one .jr{
+	border: 1px solid rgba(192,132,92,0.5);
+    width: 78px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: 15px;
+    color: #c0845c;
+    cursor: pointer;
+	overflow: hidden;
+	margin-left: 30px;
+    font-size: 14px;
+}
+.category .pinzhijinkou .tp .tp_con .right .one .xxls{
+	position: absolute;
+	width: 110px;
+	height: 110px;
+    right: 30px;
+	bottom: 27px;
+	cursor: pointer;    
+	border: 0 none;
+	vertical-align: top;
+	transition: transform .4s ease,-webkit-transform .4s ease,-moz-transform .4s ease,-o-transform .4s ease;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .two{
+	border-right: 1px solid #f6f6f6;
+	float: left;
+    position: relative;
+    width: 167px;
+    height: 167px;
+    cursor: pointer;
+}
+
+.tp_con .right .two .p1{
+	margin-left: 15px;
+	font-size: 14px;
+	overflow: hidden;
+    height: 21px;
+	width: 102px;
+	color: #333 !important;
+	margin-top: 15px !important;
+}
+.tp_con .right .two .p2{
+	color: #999;
+	margin-left: 15px;
+	font-size: 14px;
+	margin-top: -1px;
+    overflow: hidden;
+    height: 21px;
+    width: 102px;
+	
+}
+.category .pinzhijinkou .tp .tp_con .right .two .jkbg{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.category .pinzhijinkou .tp .tp_con .right .three{
+	float: left;
+    position: relative;
+    width: 167px;
+    height: 167px;
+    cursor: pointer;
+}
+
+.tp_con .right .three .p1{
+	margin-left: 15px;
+	font-size: 14px;
+	overflow: hidden;
+    height: 21px;
+	width: 102px;
+	color: #333 !important;
+	margin-top: 15px !important;
+}
+.tp_con .right .three .p2{
+	color: #999;
+	margin-left: 15px;
+	font-size: 14px;
+	margin-top: -1px;
+    overflow: hidden;
+    height: 21px;
+    width: 102px;
+}
+.category .pinzhijinkou .tp .tp_con .right .three .jknn{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+ .category .pinzhijinkou .md{
+	width: 170px;
+    height: 421px;
+    float: left;
+    border-left: 1px solid #f6f6f6;
+    position: relative;
+ }
+
+ .category .pinzhijinkou .md .phb{
+	margin-left: 81px;
+    position: absolute;
+    width: 71px;
+	background: 0;
+ }
+
+ .category .pinzhijinkou .md .p1{
+	 display: block;
+	font-size: 16px;
+    color: #333;
+	margin-top: 20px;
+	margin-left: 20.5px;
+	width: 130px;
+    height: 21px;
+    overflow: hidden;
+    white-space: nowrap;
+ }
+
+ .category .pinzhijinkou .md .p2{
+	 display: block;
+	margin-left: 20.5px;
+    font-size: 14px;
+    color: #999;
+    margin-top: 7px;
+    width: 130px;
+    height: 21px;
+    overflow: hidden;
+    white-space: nowrap
+ }
+
+ .category .pinzhijinkou .md ul{
+	overflow: hidden;
+    position: absolute;
+    height: 317px;
+    width: 120px;
+    left: 28px;
+	bottom: 15px;
+	
+ }
+ .category .pinzhijinkou .md ul li{
+	margin-top: 13px;
+	width: 90px;
+    height: 90px;
+    position: relative;
+	background-color: #fff;
+	box-shadow: 0 2px 20px 0 rgba(0,0,0,0.07);
+    margin-bottom: 11px;
+	cursor: pointer;
+	margin:12px auto;
+ }
+ 
+ .category .pinzhijinkou .md ul li img{
+	margin-top: 15px;
+    margin-left: 15px;
+    width: 60px;
+	height: 60px;
+	
+ }
+
+ .category .pinzhijinkou .md ul li a{
+	 display: block;
+	 background: url(../image/sytp/top1.png) no-repeat;
+	color:#fffbf5;
+	font-size:12px;
+	font-weight: 1000;
+
+ }
