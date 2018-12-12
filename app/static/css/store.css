@@ -1617,3 +1617,59 @@ body {
 	font-weight: 1000;
 
  }
+/* 主页渲染css */
+.indexlist-box{
+	width: 1070px;
+	margin: 0 auto;
+}
+.indexlist{
+	width: 1070px;
+	margin: 0 auto;
+}
+ .indexlist a {
+	display: block;
+	width: 168px;
+	height: 236px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	float: left;
+  }
+  .indexlist a li {
+	float: left;
+	list-style: none;
+	width: 168px;
+	height: 236px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+  }
+  .indexlist a li .imgbox {
+	width: 150px;
+	height: 150px;
+	margin-left: 10px;
+	margin-top: 10px;
+  }
+  .indexlist a li .imgbox img {
+	width: 150px;
+	height: 150px;
+  }
+  .indexlist a li .other .describe {
+	margin: 0;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 14px;
+	width: 150px;
+	height: 38px;
+	overflow: hidden;
+  }
+  .indexlist a li .other .price {
+	font-size: 16px;
+	font-weight: 900;
+	color: red;
+	margin: 0;
+	padding: 0;
+  }
+  .indexlist a li:hover {
+	border: 1px solid rgba(255, 0, 0, 0.849);
+  }
