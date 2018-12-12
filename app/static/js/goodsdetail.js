@@ -1,42 +1,43 @@
 var detail = (function () {
-    return {
-        init(ele) {
-            this.$ele = document.querySelector(ele);
-            this.$box1 = this.$ele.querySelector('.box1');
-            this.getData();
-            this.event();
-        },
-        event() {
-            var _this = this;
+	return {
+		init(ele) {
+			this.$ele = document.querySelector(ele);
+			this.$box1 = this.$ele.querySelector('.box1');
+			this.getData();
+			this.event();
+		},
+		event() {
+			var _this = this;
 
-        },
-        getData() {
-            var id = localStorage.id
-            console.log(id)
-            $.get('../php/data.json', (res) => {
-                this.data = res[id];
+		},
+		getData() {
+			var id = localStorage.id
+			console.log(id)
+			var _this = this
+			$.get('../php/data.json', (res) => {
+				this.data = res[id];
 				this.insertData(this.data, id);
-				console.log(this.$add)
-				console.log(this.$reduce)
-				console.log(Number(this.$count.value)+1)
-                this.$add.onclick = function(){
-					console.log(this)
-					console.log(this.$count.value)
-					
-                    
-                },
-                // this.$reduce.onclick = function(){
-				// 	this.$count.value=Number(this.$count.value)-1
-                    
-                // }
-            })
-            // this.data = shopList;
-            // console.log(shopList);
-        },
-        insertData(data, id) {
-            data.src2 = data.src.replace("small", "big");
-            data.src3 = data.src.replace("small", "zuismall");
-            this.$box1.innerHTML = `
+				this.$add.onclick = function () {
+					_this.$count.value = Number(_this.$count.value) + 1;
+					_this.data.num = _this.$count.value;
+					_this.data.money = (_this.$count.value * _this.data.price).toFixed(2);
+					_this.setItem(_this.data)
+				}
+				this.$reduce.onclick = function () {
+					_this.$count.value = Number(_this.$count.value) - 1;
+					_this.data.num = _this.$count.value;
+					_this.data.money = (_this.$count.value * _this.data.price).toFixed(2);
+					_this.setItem(_this.data)
+				}
+				this.$join.onclick = function () {
+					window.location = "shopcar.html";
+				}
+			})
+		},
+		insertData(data, id) {
+			data.src2 = data.src.replace("small", "big");
+			data.src3 = data.src.replace("small", "zuismall");
+			this.$box1.innerHTML = `
             <section class="box1">
 			<div class="show-image">
 				<img src="${data.src}" alt=""><span class="filter"></span>
@@ -95,13 +96,35 @@ var detail = (function () {
             </div>
         </section>
         `
-            glass.init(3)
-            this.$add = this.$ele.querySelector('.add');
-            this.$reduce = this.$ele.querySelector('.reduce');
-            this.$count = this.$ele.querySelector('.count');
-        },
-        setItem() {
+			glass.init(3)
+			this.$add = this.$ele.querySelector('.add');
+			this.$reduce = this.$ele.querySelector('.reduce');
+			this.$count = this.$ele.querySelector('.count');
+			this.$join = this.$ele.querySelector('.join');
+		},
+		setItem(data) {
+			// 现获取原有数据
+			var shopList = localStorage.getItem('shopList') || '[]';
+			shopList = JSON.parse(shopList);
+			// console.log(shopList, data);
+			// 判断购物数据中, 是否存在当前商品
+			for (var i = 0; i < shopList.length; i++) {
+				if (data.id == shopList[i].id) {
+					// 此商品已经存在
+					shopList[i] = data;
+					break;
+				}
+			}
+			if (i == shopList.length) {
+				// 商品不存在
+				shopList.push(data);
 
-        }
-    }
+			}
+			// shopList[i].count += data.count;
+			// 在把全部数据存到本地
+			localStorage.shopList = JSON.stringify(shopList);
+			// console.log(shopList);
+
+		}
+	}
 }())
