@@ -26,11 +26,14 @@ var detail = (function () {
 				this.$reduce.onclick = function () {
 					_this.$count.value = Number(_this.$count.value) - 1;
 					_this.data.num = _this.$count.value;
+					if(_this.$count.value < 1){
+						_this.$count.value = 1
+						_this.data.num = _this.$count.value;
+					}
 					_this.data.money = (_this.$count.value * _this.data.price).toFixed(2);
 					_this.setItem(_this.data)
 				}
 				this.$join.onclick = function () {
-					_this.setItem(_this.data)
 					window.location = "shopcar.html";
 				}
 			})
@@ -112,14 +115,14 @@ var detail = (function () {
 			for (var i = 0; i < shopList.length; i++) {
 				if (data.id == shopList[i].id) {
 					// 此商品已经存在
-					shopList[i].num += data.num;
+					shopList[i]= data;
+					console.log(shopList[i].num,data.num)
 					break;
 				}
 			}
 			if (i == shopList.length) {
 				// 商品不存在
 				shopList.push(data);
-				console.log(shopList)
 
 			}
 			// shopList[i].count += data.count;

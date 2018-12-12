@@ -3,17 +3,70 @@ var shopcar = (function(){
         init(ele){
             this.$carlist = document.querySelector(ele);
             this.$ul = document.querySelector('.list_data')
-            this.getData()
+            this.$addAll = null;
+            this.$reduceAll= null;
+            this.shoplist = null;
+            this.$momeyAll = null;
+            this.$trash = null;
+            this.getData()           
             this.event();
             
         },
         event(){
             var _this = this;
+            for(let i = 0; i < _this.$addAll.length; i++) {
+                (function() {
+                    var  count = _this.shoplist[i].num
+                    _this.$addAll[i].onclick = function() {
+                        count++;
+                        _this.shoplist[i].num =count;
+                        _this.shoplist[i].money = (count * _this.shoplist[i].price).toFixed(2);
+                        this.parentNode.querySelector('input').value=count;
+                        _this.$momey[i].innerHTML = _this.shoplist[i].money
+                    }
+                    _this.$reduceAll[i].onclick = function() {
+                        count--;
+                        _this.shoplist[i].num =count;
+                        _this.shoplist[i].money = (count * _this.shoplist[i].price).toFixed(2);
+                        this.parentNode.querySelector('input').value=count;
+                        _this.$momey[i].innerHTML = _this.shoplist[i].money
+                        if(count<1){
+                            count = 1;
+                            _this.shoplist[i].num =count;
+                            _this.shoplist[i].money = (count * _this.shoplist[i].price).toFixed(2);
+                            this.parentNode.querySelector('input').value=count;
+                            _this.$momey[i].innerHTML = _this.shoplist[i].money
+                        }
+                    }
+                }())
+            }
+            for(let f = 0;f<_this.$trash.length;f++){
+                _this.$trash[f].onclick=function(){
+                    var trashfather = _this.$trash[f].parentNode.parentNode.parentNode.parentNode
+                    _this.$ul.removeChild(trashfather)
+                    _this.shoplist[f] = null;
+                    console.log(_this.shoplist)
+                }
+            }
+            // _this.$ul.onclick=function(e){
+            //     e = e || window.event;
+            //     var target = e.target || e.srcElement;
+            //     console.log(1)
+            //     if(target.className == 'trash'){
+            //         console.log(1)
+            //         console.log(target.parentNode.parentNode.parentNode.parentNode)
+            //     }
+                
+            // }
+        
         },
         getData(){
-            let shoplist=JSON.parse(localStorage.shopList);
-            console.log(shoplist)
-            this.insertData(shoplist)
+            this.shoplist=JSON.parse(localStorage.shopList);
+            this.insertData(this.shoplist)
+            this.$addAll = document.querySelectorAll('.add');
+            this.$reduceAll = document.querySelectorAll('.reduce');
+            this.$momey = document.querySelectorAll('.item_a_money');
+            this.$trash = document.querySelectorAll('.icon-lajitong');
         },
         insertData(shoplist) {
             for(let i = 0; i<shoplist.length;i++){
@@ -31,7 +84,7 @@ var shopcar = (function(){
                 <!--数量-->
                 <div class="item_num">
                     <div class="zong">
-                        <button class="reduce">-</button><input type="text" value="${shoplist[i].num}"><button class="add">+</button>
+                        <button class="reduce">-</button><input type="text" class="count" value="${shoplist[i].num}"><button class="add">+</button>
                     </div>
                 </div>
                 <!--小计-->
@@ -45,7 +98,7 @@ var shopcar = (function(){
                 </div>
                 <!--操作-->
                 <div class="item_act">
-                    <a href="#"><i class="iconfont icon-02"></i></a><a href="#"><i class="iconfont icon-lajitong"></i></a>
+                    <a href="#"><i class="iconfont icon-02"></i></a><a href="#"><i class="trash iconfont icon-lajitong"></i></a>
                 </div>
             </div>`
                     this.$ul.appendChild($li)

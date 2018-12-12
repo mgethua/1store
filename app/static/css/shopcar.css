@@ -317,10 +317,14 @@
 	border: 1px solid #ccc
 }
 
+.content>.list .car_list .practical{
+	margin: 26px 0px;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
 .content>.list .car_list .list_data {
-	height: 114px;
-	padding: 0 30px;
-	line-height: 114px
+	padding:0 30px;
 }
 
 .content>.list .car_list .list_data .practical_data .imag{
@@ -401,23 +405,29 @@
 }
 
 .content>.list .car_list .list_data .practical_data .item_act {
-	display: inline-block;
+	display: block;
+	float: right;
 	width: 80px;
-	height: 29px;
-	margin-left: 30px
+	line-height: 30px;
+	height: 30px;
+	margin-left: 30px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+
+.content>.list .car_list .list_data .practical_data .item_act a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
 }
 
 .content>.list .car_list .list_data .practical_data .item_act .icon-02 {
-	display: inline-block;
 	font-size: 24px;
-	vertical-align: middle
 }
 
 .content>.list .car_list .list_data .practical_data .item_act .icon-lajitong {
 	font-size: 28px;
-	margin-left: 10px;
 	color: #999;
-	vertical-align: middle
 }
 
 .content>.list .cart_amount {
