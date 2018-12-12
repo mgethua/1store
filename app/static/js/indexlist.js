@@ -13,7 +13,7 @@ var render=(function(){
                 var target = e.target || e.srcElement;
                 var index=target.parentNode.parentNode.index;
                 var data=_this.data[index];
-                localStorage.clear();
+                localStorage.id = null;
                 localStorage.id = index;
                 window.location="goodsdetail.html";
             }

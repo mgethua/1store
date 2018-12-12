@@ -323,6 +323,11 @@
 	line-height: 114px
 }
 
+.content>.list .car_list .list_data .practical_data .imag{
+	width: 75px;
+	height: 75px;
+}
+
 .content>.list .car_list .list_data .practical_data .dan {
 	margin-right: 20px
 }

@@ -30,6 +30,7 @@ var detail = (function () {
 					_this.setItem(_this.data)
 				}
 				this.$join.onclick = function () {
+					_this.setItem(_this.data)
 					window.location = "shopcar.html";
 				}
 			})
@@ -111,13 +112,14 @@ var detail = (function () {
 			for (var i = 0; i < shopList.length; i++) {
 				if (data.id == shopList[i].id) {
 					// 此商品已经存在
-					shopList[i] = data;
+					shopList[i].num += data.num;
 					break;
 				}
 			}
 			if (i == shopList.length) {
 				// 商品不存在
 				shopList.push(data);
+				console.log(shopList)
 
 			}
 			// shopList[i].count += data.count;
