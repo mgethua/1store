@@ -19,7 +19,7 @@ var render=(function(){
             }
         },
         getData(){
-            $.get('../php/data.json',(res)=>{
+            $.get('js/data.json',(res)=>{
                 this.data=res;
                 console.log(this.data);
                 this.insertData(res);
