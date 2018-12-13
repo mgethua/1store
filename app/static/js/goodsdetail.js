@@ -34,6 +34,7 @@ var detail = (function () {
 					_this.setItem(_this.data)
 				}
 				this.$join.onclick = function () {
+					_this.setItem(_this.data)
 					window.location = "shopcar.html";
 				}
 			})

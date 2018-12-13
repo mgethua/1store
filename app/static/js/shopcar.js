@@ -20,6 +20,7 @@ var shopcar = (function(){
         },
         event(){
             var _this = this;
+            this.counts();
             _this.check();
             //加,减按钮功能模块
             for(let i = 0; i < _this.$addAll.length; i++) {
@@ -138,7 +139,7 @@ var shopcar = (function(){
                 //    有一个没有被选中
                     if(!$(this).prop('checked')) {
                         // 让全选按钮不被选中
-                        $checkAll.prop('checked', false);
+                        $checkAll.prop('checked', false);s
                         flag = false;
                         // 终止each循环
                         return

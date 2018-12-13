@@ -60,7 +60,7 @@ var register = (function () {
                             $i.style.padding = 0;
                             console.log(_this.$inputAll[i].value)
                             if(bool && i==0){
-                                sendAjax('http://10.36.141.162:7893/1store/server/php/check.php',{
+                                sendAjax('http://10.36.141.193:7893/1store/server/php/check.php',{
                                     method:'post',
                                     data:_this.$inputAll[i].value
                                 })
