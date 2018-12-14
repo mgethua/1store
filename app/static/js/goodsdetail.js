@@ -14,7 +14,7 @@ var detail = (function () {
 			var id = localStorage.id
 			console.log(id)
 			var _this = this
-			$.get('../php/data.json', (res) => {
+			$.get('js/data.json', (res) => {
 				this.data = res[id];
 				this.insertData(this.data, id);
 				this.$add.onclick = function () {
